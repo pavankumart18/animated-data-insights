@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>D3 Treemap — Robust FLIP (no DOM measurement)</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    :root{--bg:#FAF7F2;--muted:#9b9b94;--card:#fff}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:#222}
+    .app{display:flex;gap:24px;padding:24px}
+    .panel{background:var(--card);border-radius:10px;box-shadow:0 6px 20px rgba(20,20,20,0.06);padding:18px}
+    .left{width:420px;min-height:680px}
+    .right{flex:1;min-height:680px;display:flex;flex-direction:column}
+    h1,h2{margin:0}
+    .controls{display:flex;align-items:center;gap:8px;margin-bottom:18px}
+    #treemap-wrap{flex:1;min-height:520px}
+    svg{display:block;width:100%;height:100%}
+    .tile{stroke:#fff;stroke-width:1}
+    .tile-label{font-size:11px;pointer-events:none;fill:#222}
+    .tile-label.pct{fill:rgba(34,34,34,0.82)}
+    .topics ul{list-style:none;padding:0;margin:0}
+    .topic{padding:14px;border-bottom:1px solid #f0eee9;display:flex;justify-content:space-between;align-items:center}
+    .debug{position:fixed;right:12px;bottom:12px;background:rgba(0,0,0,0.6);color:#fff;padding:8px;border-radius:6px;font-size:12px}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="panel left">
+      <div class="controls">
+        <h2 id="country-title">Oregon</h2>
+        <div style="margin-left:auto">
+          <select id="country-select">
+            <option value="oregon">Oregon</option>
+            <option value="missouri">Missouri</option>
+            <option value="california">California</option>
+            <option value="texas">Texas</option>
+            <option value="newyork">New York</option>
+            <option value="florida">Florida</option>
+            <option value="colorado">Colorado</option>
+            <option value="washingtondc">Washington, D.C.</option>
+            <option value="illinois">Illinois</option>
+          </select>
+        </div>
+      </div>
+
+      <div style="margin-top:12px" class="topics panel">
+        <h3 style="margin-top:0">Most frequent</h3>
+        <div class="small-muted">The most common topics</div>
+        <ul id="topic-list" style="margin-top:12px"></ul>
+      </div>
+    </div>
+
+    <div class="panel right">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+        <h3 style="margin:0">How people are using Claude</h3>
+        <label style="font-size:14px"><input type="checkbox" id="group-toggle"> Group by job</label>
+      </div>
+      <div id="treemap-wrap"><svg id="treemap-svg" aria-label="Treemap visualization"></svg></div>
+    </div>
+  </div>
+
+  <div class="debug" id="debug" style="display:none"></div>
+
+<script>
+// ---------------------- Data (samples) ----------------------
+const DATA = {
+  oregon: {
+    meta: {title:'Oregon'},
+    topics: [
+      {id:'t1',text:'Help with academic research, writing, and educational content across multiple disciplines',pct:'4.2%'},
+      {id:'t2',text:'Provide comprehensive medical and healthcare guidance across multiple specialties',pct:'3.9%'},
+      {id:'t3',text:'Provide comprehensive multi-technology programming development assistance and technical guidance',pct:'3.9%'},
+      {id:'t4',text:'Edit and improve existing written content and documents',pct:'3.4%'},
+      {id:'t5',text:'Provide educational assistance and tutoring across multiple academic subjects and disciplines',pct:'3.3%'}
+    ],
+    tree: {name:'root', children:[
+      {id:'c1',name:'Computer and Mathematical',value:1550,cat:'Comp'},
+      {id:'c2',name:'Arts, Design, Entertainment, Sports, and Media',value:360,cat:'Arts'},
+      {id:'c3',name:'Office and Administrative Support',value:310,cat:'Office'},
+      {id:'c4',name:'Educational Instruction and Library',value:190,cat:'Edu'},
+      {id:'c5',name:'Life, Physical, and Social...',value:130,cat:'Life'},
+      {id:'c6',name:'Community and Social Service',value:100,cat:'Comm'},
+      {id:'c7',name:'Sales and Related',value:60,cat:'Sales'},
+      {id:'c8',name:'Farming, Fishing...',value:60,cat:'Farm'}
+    ]}
+  },
+  missouri: {
+    meta: {title:'Missouri'},
+    topics: [
+      {id:'m1',text:'Debug and fix software code errors across multiple programming languages',pct:'6.8%'},
+      {id:'m2',text:'Help with academic research, writing, and educational content across multiple disciplines',pct:'4.3%'},
+      {id:'m3',text:'Edit and improve existing written content and documents',pct:'3.9%'},
+      {id:'m4',text:'Create interactive romantic roleplay scenarios with character persona adoption',pct:'3.2%'},
+      {id:'m5',text:'Provide technical assistance and computational support for scientific research projects',pct:'2.9%'}
+    ],
+    tree: {name:'root', children:[
+      {id:'mc1',name:'Computer and Mathematical',value:2010,cat:'Comp'},
+      {id:'mc2',name:'Arts, Design, Entertainment, Sports, and Media',value:1120,cat:'Arts'},
+      {id:'mc3',name:'Educational Instruction and Library',value:440,cat:'Edu'},
+      {id:'mc4',name:'Office and Administrative Support',value:370,cat:'Office'},
+      {id:'mc5',name:'Life, Physical, and Social Science',value:200,cat:'Life'},
+      {id:'mc6',name:'Community and Social Service',value:110,cat:'Comm'},
+      {id:'mc7',name:'Architecture and Engineering',value:75,cat:'Arch'},
+      {id:'mc8',name:'Sales and Related',value:55,cat:'Sales'},
+      {id:'mc9',name:'Production',value:40,cat:'Prod'}
+    ]}
+  },
+  california: {
+    meta: {title:'California'},
+    topics: [
+      {id:'ca1',text:'Prototype new AI-powered product features and user experiences',pct:'7.6%'},
+      {id:'ca2',text:'Draft investor updates and strategic memos for startups',pct:'5.1%'},
+      {id:'ca3',text:'Generate marketing copy variations for multi-channel campaigns',pct:'4.7%'},
+      {id:'ca4',text:'Assist with ML model evaluation and prompt design workflows',pct:'4.5%'},
+      {id:'ca5',text:'Provide personalized tutoring for STEM students preparing for exams',pct:'3.3%'}
+    ],
+    tree: {name:'root', children:[
+      {id:'ca_c1',name:'Computer and Mathematical',value:3580,cat:'Comp'},
+      {id:'ca_c2',name:'Arts, Design, Entertainment, Sports, and Media',value:1950,cat:'Arts'},
+      {id:'ca_c3',name:'Management',value:860,cat:'Mgmt'},
+      {id:'ca_c4',name:'Architecture and Engineering',value:720,cat:'Arch'},
+      {id:'ca_c5',name:'Business and Financial Operations',value:610,cat:'Biz'},
+      {id:'ca_c6',name:'Educational Instruction and Library',value:480,cat:'Edu'},
+      {id:'ca_c7',name:'Life, Physical, and Social Science',value:300,cat:'Life'},
+      {id:'ca_c8',name:'Community and Social Service',value:190,cat:'Comm'},
+      {id:'ca_c9',name:'Sales and Related',value:140,cat:'Sales'}
+    ]}
+  },
+  texas: {
+    meta: {title:'Texas'},
+    topics: [
+      {id:'tx1',text:'Plan and optimize company-wide operations and supply chains',pct:'6.1%'},
+      {id:'tx2',text:'Provide bilingual support for customer service teams',pct:'5.4%'},
+      {id:'tx3',text:'Draft legal summaries and contract outlines',pct:'4.8%'},
+      {id:'tx4',text:'Assist educators with curriculum planning and grading',pct:'4.1%'},
+      {id:'tx5',text:'Coach professionals preparing for technical interviews',pct:'3.6%'}
+    ],
+    tree: {name:'root', children:[
+      {id:'tx_c1',name:'Management',value:1380,cat:'Mgmt'},
+      {id:'tx_c2',name:'Computer and Mathematical',value:1220,cat:'Comp'},
+      {id:'tx_c3',name:'Office and Administrative Support',value:890,cat:'Office'},
+      {id:'tx_c4',name:'Business and Financial Operations',value:660,cat:'Biz'},
+      {id:'tx_c5',name:'Educational Instruction and Library',value:510,cat:'Edu'},
+      {id:'tx_c6',name:'Architecture and Engineering',value:350,cat:'Arch'},
+      {id:'tx_c7',name:'Sales and Related',value:320,cat:'Sales'},
+      {id:'tx_c8',name:'Production',value:260,cat:'Prod'},
+      {id:'tx_c9',name:'Community and Social Service',value:190,cat:'Comm'},
+      {id:'tx_c10',name:'Healthcare Practitioners and Technical',value:150,cat:'Health'}
+    ]}
+  },
+  newyork: {
+    meta: {title:'New York'},
+    topics: [
+      {id:'ny1',text:'Summarize financial filings and create analyst briefs',pct:'6.9%'},
+      {id:'ny2',text:'Brainstorm advertising concepts for agency clients',pct:'5.8%'},
+      {id:'ny3',text:'Support policy researchers with data interpretation',pct:'4.9%'},
+      {id:'ny4',text:'Generate scripts and shot lists for media production',pct:'4.4%'},
+      {id:'ny5',text:'Provide language translation and localization guidance',pct:'3.7%'}
+    ],
+    tree: {name:'root', children:[
+      {id:'ny_c1',name:'Business and Financial Operations',value:1680,cat:'Biz'},
+      {id:'ny_c2',name:'Arts, Design, Entertainment, Sports, and Media',value:1460,cat:'Arts'},
+      {id:'ny_c3',name:'Computer and Mathematical',value:1190,cat:'Comp'},
+      {id:'ny_c4',name:'Legal',value:780,cat:'Legal'},
+      {id:'ny_c5',name:'Management',value:670,cat:'Mgmt'},
+      {id:'ny_c6',name:'Educational Instruction and Library',value:520,cat:'Edu'},
+      {id:'ny_c7',name:'Community and Social Service',value:340,cat:'Comm'},
+      {id:'ny_c8',name:'Sales and Related',value:310,cat:'Sales'},
+      {id:'ny_c9',name:'Healthcare Practitioners and Technical',value:220,cat:'Health'}
+    ]}
+  },
+  florida: {
+    meta: {title:'Florida'},
+    topics: [
+      {id:'fl_t1',text:'Create travel itineraries and hospitality guest experiences',pct:'6.2%'},
+      {id:'fl_t2',text:'Support bilingual customer service and concierge teams',pct:'5.5%'},
+      {id:'fl_t3',text:'Draft marketing copy for tourism and entertainment campaigns',pct:'4.8%'},
+      {id:'fl_t4',text:'Provide legal and compliance research summaries',pct:'3.9%'},
+      {id:'fl_t5',text:'Assist teachers with lesson planning and classroom materials',pct:'3.3%'}
+    ],
+    tree: {name:'root', children:[
+      {id:'fl_c1',name:'Sales and Related',value:980,cat:'Sales'},
+      {id:'fl_c2',name:'Community and Social Service',value:620,cat:'Comm'},
+      {id:'fl_c3',name:'Computer and Mathematical',value:560,cat:'Comp'},
+      {id:'fl_c4',name:'Educational Instruction and Library',value:480,cat:'Edu'},
+      {id:'fl_c5',name:'Business and Financial Operations',value:420,cat:'Biz'},
+      {id:'fl_c6',name:'Management',value:360,cat:'Mgmt'},
+      {id:'fl_c7',name:'Healthcare Practitioners and Technical',value:290,cat:'Health'},
+      {id:'fl_c8',name:'Arts, Design, Entertainment, Sports, and Media',value:260,cat:'Arts'},
+      {id:'fl_c9',name:'Production',value:210,cat:'Prod'}
+    ]}
+  },
+  colorado: {
+    meta: {title:'Colorado'},
+    topics: [
+      {id:'co_t1',text:'Plan outdoor education and environmental science programs',pct:'5.7%'},
+      {id:'co_t2',text:'Support software engineering teams with debugging and code reviews',pct:'5.2%'},
+      {id:'co_t3',text:'Draft grant proposals for research and non-profit initiatives',pct:'4.4%'},
+      {id:'co_t4',text:'Provide healthcare documentation assistance for clinics',pct:'3.8%'},
+      {id:'co_t5',text:'Create marketing content for sustainability-focused companies',pct:'3.6%'}
+    ],
+    tree: {name:'root', children:[
+      {id:'co_c1',name:'Computer and Mathematical',value:960,cat:'Comp'},
+      {id:'co_c2',name:'Life, Physical, and Social Science',value:540,cat:'Life'},
+      {id:'co_c3',name:'Business and Financial Operations',value:430,cat:'Biz'},
+      {id:'co_c4',name:'Educational Instruction and Library',value:360,cat:'Edu'},
+      {id:'co_c5',name:'Architecture and Engineering',value:340,cat:'Arch'},
+      {id:'co_c6',name:'Community and Social Service',value:300,cat:'Comm'},
+      {id:'co_c7',name:'Management',value:280,cat:'Mgmt'},
+      {id:'co_c8',name:'Arts, Design, Entertainment, Sports, and Media',value:220,cat:'Arts'},
+      {id:'co_c9',name:'Sales and Related',value:210,cat:'Sales'}
+    ]}
+  },
+  washingtondc: {
+    meta: {title:'Washington, D.C.'},
+    topics: [
+      {id:'dc_t1',text:'Summarize policy briefs and legislative updates for staffers',pct:'6.4%'},
+      {id:'dc_t2',text:'Draft speeches and formal communications for public officials',pct:'5.7%'},
+      {id:'dc_t3',text:'Provide research support for think tanks and NGOs',pct:'5.2%'},
+      {id:'dc_t4',text:'Assist with legal document review and annotations',pct:'4.1%'},
+      {id:'dc_t5',text:'Plan professional training workshops and curricula',pct:'3.5%'}
+    ],
+    tree: {name:'root', children:[
+      {id:'dc_c1',name:'Business and Financial Operations',value:720,cat:'Biz'},
+      {id:'dc_c2',name:'Computer and Mathematical',value:630,cat:'Comp'},
+      {id:'dc_c3',name:'Community and Social Service',value:410,cat:'Comm'},
+      {id:'dc_c4',name:'Legal',value:360,cat:'Legal'},
+      {id:'dc_c5',name:'Educational Instruction and Library',value:280,cat:'Edu'},
+      {id:'dc_c6',name:'Management',value:260,cat:'Mgmt'},
+      {id:'dc_c7',name:'Arts, Design, Entertainment, Sports, and Media',value:220,cat:'Arts'},
+      {id:'dc_c8',name:'Office and Administrative Support',value:180,cat:'Office'},
+      {id:'dc_c9',name:'Life, Physical, and Social Science',value:160,cat:'Life'}
+    ]}
+  },
+  illinois: {
+    meta: {title:'Illinois'},
+    topics: [
+      {id:'il_t1',text:'Support enterprise analytics and reporting workflows',pct:'6.0%'},
+      {id:'il_t2',text:'Produce marketing collateral for manufacturing companies',pct:'4.9%'},
+      {id:'il_t3',text:'Assist educators with student feedback and grading rubrics',pct:'4.2%'},
+      {id:'il_t4',text:'Draft legal documentation for corporate compliance teams',pct:'3.7%'},
+      {id:'il_t5',text:'Provide customer success playbooks for SaaS products',pct:'3.4%'}
+    ],
+    tree: {name:'root', children:[
+      {id:'il_c1',name:'Business and Financial Operations',value:980,cat:'Biz'},
+      {id:'il_c2',name:'Computer and Mathematical',value:850,cat:'Comp'},
+      {id:'il_c3',name:'Production',value:620,cat:'Prod'},
+      {id:'il_c4',name:'Educational Instruction and Library',value:480,cat:'Edu'},
+      {id:'il_c5',name:'Management',value:450,cat:'Mgmt'},
+      {id:'il_c6',name:'Office and Administrative Support',value:420,cat:'Office'},
+      {id:'il_c7',name:'Sales and Related',value:360,cat:'Sales'},
+      {id:'il_c8',name:'Community and Social Service',value:300,cat:'Comm'},
+      {id:'il_c9',name:'Healthcare Practitioners and Technical',value:240,cat:'Health'}
+    ]}
+  }
+};
+
+// ---------------------- D3 + layout ----------------------
+const container = document.getElementById('treemap-wrap');
+const svg = d3.select('#treemap-svg');
+const g = svg.append('g').attr('class','tiles');
+const pctFormat = d3.format('.1f');
+
+// color
+const color = d3.scaleOrdinal()
+  .domain(['Comp','Arts','Office','Edu','Life','Comm','Sales','Farm','Arch','Prod','Mgmt','Biz','Health','Legal'])
+  .range(['#cde7f0','#e6acbe','#e8f7bf','#bcd7b4','#f5b7a6','#c8d3ff','#b3c7e6','#e9e0d3','#c7f0e6','#dbd7f0','#f2c28b','#d4d8f7','#f1d5e5','#c9eadf']);
+
+// treemap generator
+const treemap = d3.treemap()
+  .paddingInner(6)
+  .round(true)
+  .tile(d3.treemapSquarify.ratio(1));
+
+// prevLayout holds the *last computed* layout (map id -> {x,y,w,h})
+let prevLayout = new Map();
+
+// helper: set svg to exact pixel size of container and return size
+function setSvgToContainer() {
+  const rect = container.getBoundingClientRect();
+  // ensure reasonable size
+  const w = Math.max(200, Math.round(rect.width));
+  const h = Math.max(200, Math.round(rect.height));
+  svg.attr('width', w).attr('height', h);
+  return {w,h};
+}
+
+// compute leaves using actual pixels
+function computeLeaves(rootData) {
+  const root = d3.hierarchy(rootData).sum(d => d.value || 0).sort((a,b) => b.value - a.value);
+  const {w,h} = setSvgToContainer();
+  treemap.size([w,h])(root);
+  const total = root.value || 1;
+  return root.leaves().map(d => ({
+    key: d.data.stableId || d.data.cat || d.data.name || d.data.id,
+    id: d.data.id,
+    name: d.data.name,
+    value: d.value,
+    x0: d.x0, y0: d.y0, x1: d.x1, y1: d.y1,
+    cat: d.data.cat,
+    pct: d.value / total
+  }));
+}
+
+// render topic list
+function renderList(listData) {
+  const ul = d3.select('#topic-list');
+  const items = ul.selectAll('li.topic').data(listData, d=>d.id);
+  items.exit().remove();
+  const enter = items.enter().append('li').attr('class','topic').style('opacity',0);
+  enter.append('div').attr('class','title').text(d => d.text.length>80?d.text.slice(0,80)+'...':d.text);
+  enter.append('div').attr('class','pct').text(d => d.pct);
+  enter.transition().duration(420).style('opacity',1);
+  enter.merge(items);
+}
+
+// CORE: update treemap using prevLayout map, avoid DOM measurements
+function renderTreemap(rootData) {
+  // 1) compute new layout (newLeaves)
+  const newLeaves = computeLeaves(rootData);
+
+  // 2) build newLayout map for quick lookup
+  const newLayout = new Map();
+  newLeaves.forEach(d => newLayout.set(d.key, {
+    x: d.x0,
+    y: d.y0,
+    w: d.x1 - d.x0,
+    h: d.y1 - d.y0,
+    name: d.name,
+    cat: d.cat,
+    pct: d.pct
+  }));
+
+  // 3) data join keyed by id
+  const groups = g.selectAll('.tile-group').data(newLeaves, d => d.key);
+
+  // 4) EXIT (shrink + fade)
+  const exiting = groups.exit();
+  exiting.select('rect').transition().duration(220).attr('width',0).attr('height',0).style('opacity',0.01);
+  exiting.transition().delay(220).remove();
+
+  // 5) ENTER
+const enter = groups.enter().append('g').attr('class','tile-group');
+enter.append('rect')
+  .attr('class','tile')
+  .attr('rx',6)
+  .attr('ry',6)
+  .style('opacity',0.95)
+  .each(function(d) {
+    const r = newLayout.get(d.key);
+    const rect = d3.select(this);
+    const cx = r.x + r.w / 2;
+    const cy = r.y + r.h / 2;
+    rect
+      .attr('x', cx)
+      .attr('y', cy)
+      .attr('width', 0)
+      .attr('height', 0)
+      .style('fill', color(r.cat));
+  });
+enter.append('text')
+  .attr('class','tile-label')
+  .attr('dy','0.35em')
+  .style('font-size','11px')
+  .style('opacity',0)
+  .each(function(d) {
+    const r = newLayout.get(d.key);
+    const text = d3.select(this);
+    const cx = r.x + r.w / 2;
+    const cy = r.y + r.h / 2;
+    text.attr('x', cx).attr('y', cy);
+  });
+enter.append('text')
+  .attr('class','tile-label name')
+  .attr('dy','0.35em')
+  .style('font-size','11px')
+  .style('font-weight','600')
+  .style('opacity',0);
+enter.append('text')
+  .attr('class','tile-label pct')
+  .attr('dy','0.35em')
+  .style('font-size','10px')
+  .style('opacity',0);
+
+  // 6) MERGE (enter + update)
+  const merged = enter.merge(groups);
+
+// animate rectangles and labels into place
+merged.each(function(d) {
+    const node = d3.select(this);
+    const r = newLayout.get(d.key);
+  const tx = Math.max(r.x + 8, r.x + 4);
+  const nameY = Math.min(r.y + 18, r.y + Math.max(16, r.h - 16));
+  const pctY = Math.min(nameY + 16, r.y + r.h - 6);
+  const pctText = `${pctFormat(r.pct * 100)}%`;
+
+  const showBoth = r.w > 140 && r.h > 70;
+  const showPctOnly = !showBoth && r.w > 80 && r.h > 40;
+  const showPctTiny = !showBoth && !showPctOnly && r.w > 54 && r.h > 32;
+
+  node.select('rect')
+    .transition()
+    .duration(620)
+    .ease(d3.easeCubicInOut)
+    .attr('x', r.x)
+    .attr('y', r.y)
+    .attr('width', r.w)
+    .attr('height', r.h)
+    .style('fill', color(r.cat));
+
+  const nameLabel = node.select('text.tile-label.name');
+  const pctLabel = node.select('text.tile-label.pct');
+
+  if (showBoth) {
+    nameLabel.text(r.name.length > 48 ? `${r.name.slice(0,45)}…` : r.name);
+    pctLabel.text(pctText);
+
+    nameLabel
+      .transition()
+      .duration(620)
+      .ease(d3.easeCubicInOut)
+      .attr('x', tx)
+      .attr('y', nameY)
+      .style('opacity', 1)
+      .style('text-anchor','start');
+
+    pctLabel
+      .transition()
+      .duration(620)
+      .ease(d3.easeCubicInOut)
+      .attr('x', tx)
+      .attr('y', pctY)
+      .style('opacity', 0.9)
+      .style('text-anchor','start');
+  } else if (showPctOnly) {
+    nameLabel
+      .transition()
+      .duration(400)
+      .style('opacity', 0);
+
+    pctLabel.text(pctText);
+    pctLabel
+      .transition()
+      .duration(620)
+      .ease(d3.easeCubicInOut)
+      .attr('x', tx)
+      .attr('y', nameY)
+      .style('opacity', 0.95)
+      .style('text-anchor','start');
+  } else if (showPctTiny) {
+    nameLabel
+      .transition()
+      .duration(400)
+      .style('opacity', 0);
+
+    pctLabel.text(pctText);
+    pctLabel
+      .transition()
+      .duration(620)
+      .ease(d3.easeCubicInOut)
+      .attr('x', r.x + r.w / 2)
+      .attr('y', r.y + r.h / 2)
+      .style('opacity', 0.9)
+      .style('text-anchor','middle');
+  } else {
+    nameLabel
+      .transition()
+      .duration(300)
+      .style('opacity', 0);
+    pctLabel
+      .transition()
+      .duration(300)
+      .style('opacity', 0);
+  }
+  });
+
+  // 8) update prevLayout to the newLayout for the next update (clone values)
+  prevLayout = new Map();
+  newLayout.forEach((v,k) => prevLayout.set(k, { x:v.x, y:v.y, w:v.w, h:v.h }));
+
+  // optional tiny stagger for perception
+  merged.transition().delay((d,i) => i * 6);
+}
+
+// UI wiring and resize handling
+function updateDashboard(key) {
+  const data = DATA[key];
+  document.getElementById('country-title').textContent = data.meta.title;
+  renderList(data.topics);
+  renderTreemap(data.tree);
+  // debug visible if needed:
+  // document.getElementById('debug').style.display = 'block';
+}
+
+document.getElementById('country-select').addEventListener('change', (e) => {
+  updateDashboard(e.target.value);
+});
+
+// On window resize: recompute layout and animate from prevLayout -> new layout
+let rt = null;
+window.addEventListener('resize', () => {
+  clearTimeout(rt);
+  rt = setTimeout(() => {
+    const sel = document.getElementById('country-select').value;
+    // compute new layout and animate from previous positions
+    renderTreemap(DATA[sel].tree);
+  }, 120);
+});
+
+// initial render
+updateDashboard('oregon');
+
+</script>
+</body>
+</html>
