@@ -5,7 +5,7 @@
 (function(){
   const container = document.getElementById('treemap-wrap');
   const svg = d3.select('#treemap-svg');
-  const g = svg.append('g').attr('class','tiles');
+  let g; // created on init per mode to avoid overlap
   const pctFormat = d3.format('.1f');
   const DURATION = 1200; // slower, smoother
 
@@ -255,12 +255,21 @@
   }
 
   async function init(){
+    // Reset SVG layer and (re)create group for countries mode
+    svg.selectAll('*').remove();
+    prevLayout = new Map();
+    g = d3.select('#treemap-svg').append('g').attr('class','tiles tiles-countries');
+
     const res = await fetch('output/countries_all.json');
     const all = await res.json();
     all.forEach(row => { if (row && row.country_code) countriesIndex.set(String(row.country_code), row); });
     const codes = Array.from(countriesIndex.keys()).sort();
 
-    const select = document.getElementById('country-select');
+    // Reset select to drop previous listeners (clone trick)
+    let select = document.getElementById('country-select');
+    const clone = select.cloneNode(true);
+    select.parentNode.replaceChild(clone, select);
+    select = document.getElementById('country-select');
     select.innerHTML = '';
     codes.forEach(code => {
       const opt = document.createElement('option');
@@ -294,5 +303,11 @@
     onResize();
   }
 
-  init().catch(err => console.error('Failed to initialize countries dashboard', err));
+  // Expose for SPA and init only if mode=countries
+  const mode = (getParam('mode') || 'states').toLowerCase();
+  window.AEI = window.AEI || {};
+  window.AEI.countries = { init, updateDashboard };
+  if (mode === 'countries') {
+    init().catch(err => console.error('Failed to initialize countries dashboard', err));
+  }
 })();

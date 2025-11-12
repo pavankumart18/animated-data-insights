@@ -47,8 +47,11 @@
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
         <h3 style="margin:0">How people are using Claude</h3>
         <div style="display:flex;gap:10px;align-items:center">
-          <label style="font-size:14px"><input type="checkbox" id="group-toggle"> Group by job</label>
-          <button id="nav-countries" class="nav-btn" aria-label="Go to countries">Countries</button>
+          <label for="mode-select" class="muted" style="font-size:12px">Mode</label>
+          <select id="mode-select" class="nav-btn" style="padding:6px 8px">
+            <option value="states">States</option>
+            <option value="countries">Countries</option>
+          </select>
         </div>
       </div>
       <div id="treemap-wrap"><svg id="treemap-svg" aria-label="Treemap visualization"></svg></div>
@@ -509,20 +512,42 @@ window.addEventListener('resize', () => {
 */
 </script>
 <script>
-// Navigation to countries page; preserve query string for shareability
-document.getElementById('nav-countries')?.addEventListener('click', () => {
-  const qs = window.location.search || '';
-  window.location.href = 'index2.html' + qs;
-});
-
-// Keyboard shortcuts: Shift+C -> Countries, Shift+S -> States (noop here)
-window.addEventListener('keydown', (e) => {
-  if (e.shiftKey && (e.key === 'C' || e.key === 'c')) {
-    const qs = window.location.search || '';
-    window.location.href = 'index2.html' + qs;
+// SPA mode switcher
+(function(){
+  function getParam(name){ try { return new URLSearchParams(window.location.search).get(name); } catch { return null; } }
+  function setParam(name, value){
+    try {
+      const url = new URL(window.location.href);
+      if (value == null) url.searchParams.delete(name); else url.searchParams.set(name, value);
+      history.replaceState(null, '', url.toString());
+    } catch {}
   }
-});
+
+  const modeSelect = document.getElementById('mode-select');
+  const initialMode = (getParam('mode') || 'states').toLowerCase();
+  modeSelect.value = initialMode;
+
+  function initMode(mode){
+    setParam('mode', mode);
+    if (mode === 'countries') {
+      window.AEI?.countries?.init();
+    } else {
+      window.AEI?.states?.init();
+    }
+  }
+
+  initMode(initialMode);
+
+  modeSelect.addEventListener('change', () => initMode(modeSelect.value));
+
+  window.addEventListener('keydown', (e) => {
+    if (!e.shiftKey) return;
+    if (e.key.toLowerCase() === 'c') { modeSelect.value = 'countries'; modeSelect.dispatchEvent(new Event('change')); }
+    if (e.key.toLowerCase() === 's') { modeSelect.value = 'states'; modeSelect.dispatchEvent(new Event('change')); }
+  });
+})();
 </script>
 <script src="states.js"></script>
+<script src="countries.js"></script>
 </body>
 </html>
