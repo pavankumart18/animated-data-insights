@@ -1,0 +1,60 @@
+﻿{
+    "country_code":  "LBN",
+    "country":  "Lebanon",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  25.501432664756447
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  14.469914040114611
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  4.7277936962750715
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help with automation scripts, robotics programming, and workflow optimization tasks",
+                                     "share":  4.5845272206303722
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  4.5845272206303722
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.5845272206303722
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.1547277936962752
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  3.7249283667621778
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  3.4383954154727796
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.29512893982808
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  34.383954154727789
+                   }
+}

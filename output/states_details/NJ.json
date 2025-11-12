@@ -1,0 +1,90 @@
+﻿{
+    "state_code":  "NJ",
+    "state":  "New Jersey",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  13.935588414016609
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  7.6159611099858209
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  7.1500911484707315
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.6234555398014985
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.2333400850719061
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Assist with creative writing across multiple genres including humor and romantic roleplay",
+                                     "share":  4.1118087907636216
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.5446627506582944
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  3.42313145635001
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  3.058537573425157
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  2.6331780433461618
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  15.65728175005064
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  15.353453514279927
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  8.1628519343731014
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  2.6129228276281147
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  1.8229694146242659
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.7419485517520765
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.668422118695564
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.32408345148875839
+                       }
+                   ]
+}

@@ -1,0 +1,61 @@
+﻿{
+    "country_code":  "SLV",
+    "country":  "El Salvador",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  16.02708803611738
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  11.738148984198643
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.5778781038374721
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  6.5462753950338595
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.4176072234762982
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  5.1918735891647856
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  4.0632054176072234
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  4.0632054176072234
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Create comprehensive K-12 educational materials and teaching resources",
+                                     "share":  3.8374717832957108
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  16.027088036117384
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  3.3860045146726865
+                       }
+                   ]
+}

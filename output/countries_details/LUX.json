@@ -1,0 +1,49 @@
+﻿{
+    "country_code":  "LUX",
+    "country":  "Luxembourg",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  19.219219219219219
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.3063063063063058
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.3063063063063058
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  6.0060060060060056
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  5.1051051051051051
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  4.8048048048048049
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.5045045045045047
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.5045045045045047
+                                 }
+                             ],
+    "job_groups":  {
+
+                   }
+}

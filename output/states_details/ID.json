@@ -1,0 +1,66 @@
+﻿{
+    "state_code":  "ID",
+    "state":  "Idaho",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  14.662273476112023
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.2372322899505761
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.0724876441515647
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  6.0955518945634264
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.6128500823723231
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  4.4481054365733117
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.1186161449752881
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.9538714991762767
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  3.9538714991762767
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  3.4596375617792421
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  2.9654036243822075
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  2.8006589785831961
+                       }
+                   ]
+}

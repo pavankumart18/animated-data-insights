@@ -1,0 +1,90 @@
+﻿{
+    "state_code":  "MD",
+    "state":  "Maryland",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.556145473851871
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  9.0788425803026271
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.2824528802760824
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  6.2649323068754983
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  6.23838598354128
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  4.3535970268117872
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.3005043801433507
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.0350411468011682
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  3.902309530130077
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.583753650119458
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  16.272896203875764
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  5.017255110167242
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  4.380143350146005
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.1590124767719669
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  2.7342713034244759
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.7255110167241838
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.69020440668967353
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.4247411733474914
+                       }
+                   ]
+}

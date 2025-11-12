@@ -1,0 +1,70 @@
+﻿{
+    "state_code":  "AL",
+    "state":  "Alabama",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  12.479740680713128
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  9.6434359805510539
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.1037277147487838
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  6.1588330632090758
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.4294975688816853
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.294975688816856
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  4.2139384116693677
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  3.8897893030794171
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  3.7277147487844409
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide business operations support and strategic consulting services",
+                                     "share":  3.4035656401944889
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  10.777957860615883
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  2.7552674230145868
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  2.1880064829821722
+                       }
+                   ]
+}

@@ -1,0 +1,19 @@
+﻿{
+    "country_code":  "MNG",
+    "country":  "Mongolia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  19.101123595505616
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  14.04494382022472
+                                 }
+                             ],
+    "job_groups":  {
+
+                   }
+}

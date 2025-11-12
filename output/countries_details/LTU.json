@@ -1,0 +1,70 @@
+﻿{
+    "country_code":  "LTU",
+    "country":  "Lithuania",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  20.191387559808614
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  8.9952153110047846
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.4114832535885169
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  5.3588516746411488
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.1674641148325362
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.8803827751196165
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  4.5933014354066986
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.9234449760765551
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  3.3492822966507179
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.1578947368421053
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  21.913875598086126
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  2.5837320574162681
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  1.5311004784688995
+                       }
+                   ]
+}

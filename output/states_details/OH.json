@@ -1,0 +1,90 @@
+﻿{
+    "state_code":  "OH",
+    "state":  "Ohio",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.468227424749164
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.94314381270903
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  7.4414715719063551
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.7692307692307692
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  5.32329988851728
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.2118171683389072
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.5429208472686735
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  4.4593088071348941
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  3.9018952062430321
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  3.3723522853957641
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  17.279821627647713
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  4.7658862876254178
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.15273132664437
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  4.0412486064659978
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.5328874024526198
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.55741360089186176
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.50167224080267558
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  0.44593088071348941
+                       }
+                   ]
+}

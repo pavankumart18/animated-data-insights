@@ -1,0 +1,60 @@
+﻿{
+    "state_code":  "LA",
+    "state":  "Louisiana",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  13.500482160077146
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.6788813886210221
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.5824493731919
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  7.6181292189006751
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.725168756027001
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.628736740597879
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.4358727097396331
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  3.857280617164899
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  3.664416586306654
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  3.278688524590164
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  10.125361620057859
+                   }
+}

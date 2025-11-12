@@ -1,0 +1,60 @@
+﻿{
+    "country_code":  "RWA",
+    "country":  "Rwanda",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  23.889739663093415
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  17.917304747320063
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.4226646248085757
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.431852986217458
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.44104134762634
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  3.9816232771822362
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.3690658499234303
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  2.7565084226646248
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  2.6033690658499236
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  2.2970903522205206
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  30.934150076569679
+                   }
+}

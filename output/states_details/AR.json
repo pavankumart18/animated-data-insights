@@ -1,0 +1,60 @@
+﻿{
+    "state_code":  "AR",
+    "state":  "Arkansas",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.407854984894261
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  9.2145015105740153
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.761329305135952
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.7401812688821749
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.5317220543806647
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  4.5317220543806647
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  4.0785498489425986
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  4.0785498489425986
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.9274924471299091
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  3.7764350453172209
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  5.1359516616314194
+                   }
+}

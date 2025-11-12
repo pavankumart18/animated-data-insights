@@ -1,0 +1,60 @@
+﻿{
+    "state_code":  "KS",
+    "state":  "Kansas",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.342763873775844
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.2698585418933632
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.1610446137105548
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.2230685527747553
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.7878128400435251
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.4613710554951034
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.4613710554951034
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  4.2437431991294883
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  3.808487486398259
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help with job applications, resumes, and career advancement",
+                                     "share":  3.5908596300326447
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  7.9434167573449415
+                   }
+}

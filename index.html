@@ -22,25 +22,17 @@
     .topics ul{list-style:none;padding:0;margin:0}
     .topic{padding:14px;border-bottom:1px solid #f0eee9;display:flex;justify-content:space-between;align-items:center}
     .debug{position:fixed;right:12px;bottom:12px;background:rgba(0,0,0,0.6);color:#fff;padding:8px;border-radius:6px;font-size:12px}
+    .nav-btn{background:#f7f5f0;border:1px solid #e3dfd6;border-radius:8px;padding:8px 12px;font-size:12px;color:#444;cursor:pointer}
+    .nav-btn:hover{background:#efece6}
   </style>
 </head>
 <body>
   <div class="app">
     <div class="panel left">
       <div class="controls">
-        <h2 id="country-title">Oregon</h2>
+        <h2 id="country-title">State</h2>
         <div style="margin-left:auto">
-          <select id="country-select">
-            <option value="oregon">Oregon</option>
-            <option value="missouri">Missouri</option>
-            <option value="california">California</option>
-            <option value="texas">Texas</option>
-            <option value="newyork">New York</option>
-            <option value="florida">Florida</option>
-            <option value="colorado">Colorado</option>
-            <option value="washingtondc">Washington, D.C.</option>
-            <option value="illinois">Illinois</option>
-          </select>
+          <select id="country-select"></select>
         </div>
       </div>
 
@@ -54,7 +46,10 @@
     <div class="panel right">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
         <h3 style="margin:0">How people are using Claude</h3>
-        <label style="font-size:14px"><input type="checkbox" id="group-toggle"> Group by job</label>
+        <div style="display:flex;gap:10px;align-items:center">
+          <label style="font-size:14px"><input type="checkbox" id="group-toggle"> Group by job</label>
+          <button id="nav-countries" class="nav-btn" aria-label="Go to countries">Countries</button>
+        </div>
       </div>
       <div id="treemap-wrap"><svg id="treemap-svg" aria-label="Treemap visualization"></svg></div>
     </div>
@@ -63,6 +58,8 @@
   <div class="debug" id="debug" style="display:none"></div>
 
 <script>
+/*
+// NOTE: Inline sample DATA replaced by states.js dynamic loader.
 // ---------------------- Data (samples) ----------------------
 const DATA = {
   oregon: {
@@ -508,9 +505,24 @@ window.addEventListener('resize', () => {
   }, 120);
 });
 
-// initial render
-updateDashboard('oregon');
-
+// End inline script stub.
+*/
 </script>
+<script>
+// Navigation to countries page; preserve query string for shareability
+document.getElementById('nav-countries')?.addEventListener('click', () => {
+  const qs = window.location.search || '';
+  window.location.href = 'index2.html' + qs;
+});
+
+// Keyboard shortcuts: Shift+C -> Countries, Shift+S -> States (noop here)
+window.addEventListener('keydown', (e) => {
+  if (e.shiftKey && (e.key === 'C' || e.key === 'c')) {
+    const qs = window.location.search || '';
+    window.location.href = 'index2.html' + qs;
+  }
+});
+</script>
+<script src="states.js"></script>
 </body>
 </html>

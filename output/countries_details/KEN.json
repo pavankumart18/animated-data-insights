@@ -1,0 +1,86 @@
+﻿{
+    "country_code":  "KEN",
+    "country":  "Kenya",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  18.942189421894216
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  12.865928659286594
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  8.1672816728167277
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.2570725707257075
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  7.158671586715867
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.2066420664206641
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  3.444034440344403
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help with job applications, resumes, and career advancement",
+                                     "share":  3.2472324723247228
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.2226322263222631
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.0750307503075032
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  31.881918819188193
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  10.13530135301353
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  3.4440344403444034
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  1.7466174661746616
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  1.3776137761377614
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  0.91020910209102068
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.8118081180811807
+                       }
+                   ]
+}

@@ -1,0 +1,30 @@
+﻿{
+    "country_code":  "AGO",
+    "country":  "Angola",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  15.966386554621849
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  13.025210084033615
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  10.084033613445378
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.8235294117647065
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  17.22689075630252
+                   }
+}

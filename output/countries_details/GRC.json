@@ -1,0 +1,74 @@
+﻿{
+    "country_code":  "GRC",
+    "country":  "Greece",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  18.601462522851921
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.9926873857404024
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  6.444241316270567
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  6.0786106032906764
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.3930530164533819
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  5.210237659963437
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.3875685557586834
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.7934186471663618
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  3.6563071297989032
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.5191956124314445
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  21.617915904936016
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.2047531992687386
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  2.7879341864716638
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  1.6910420475319925
+                       }
+                   ]
+}

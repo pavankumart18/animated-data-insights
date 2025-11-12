@@ -1,0 +1,110 @@
+﻿{
+    "state_code":  "MA",
+    "state":  "Massachusetts",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  16.915110622940528
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.8969088341440443
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.4732465087086144
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  7.1081123489722273
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.5975207908363407
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.5504471991212929
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.2209320571159576
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  4.1424760709242117
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help with job applications, resumes, and career advancement",
+                                     "share":  4.1110936764475126
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  3.5462105758669384
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  19.11187823630943
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  8.2535697473717242
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  5.303624666562059
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.0954024792091639
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  3.8129609289188764
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  2.0398556409854072
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  1.6318845127883259
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.549191903342225
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.39227993095873215
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.25105915581358862
+                       },
+                       {
+                           "name":  "Business and Financial Operations",
+                           "share":  0.25105915581358862
+                       },
+                       {
+                           "name":  "Management",
+                           "share":  0.25105915581358862
+                       },
+                       {
+                           "name":  "Legal",
+                           "share":  0.23536795857523929
+                       }
+                   ]
+}

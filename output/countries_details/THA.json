@@ -1,0 +1,110 @@
+﻿{
+    "country_code":  "THA",
+    "country":  "Thailand",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  16.850806121613878
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  7.7829609624355509
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  7.0791390457484242
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.9481954333415166
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.1297978557983468
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  5.4423438906620838
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.2556674032244866
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Create comprehensive K-12 educational materials and teaching resources",
+                                     "share":  4.0838039119404206
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  3.9283083722072183
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.7809968082494474
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  28.513071895424829
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  16.895424836601304
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  6.3235294117647056
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.5016339869281037
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  2.7777777777777772
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.95588235294117641
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  0.84967320261437884
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.73529411764705876
+                       },
+                       {
+                           "name":  "Management",
+                           "share":  0.68627450980392146
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.57189542483660116
+                       },
+                       {
+                           "name":  "Healthcare Practitioners and Technical",
+                           "share":  0.49836601307189532
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.25326797385620914
+                       },
+                       {
+                           "name":  "Installation, Maintenance, and Repair",
+                           "share":  0.12254901960784308
+                       }
+                   ]
+}

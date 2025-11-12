@@ -1,0 +1,90 @@
+﻿{
+    "country_code":  "CHL",
+    "country":  "Chile",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  17.351154313487243
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.019441069258809
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  7.193195625759417
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  6.026731470230863
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  5.83232077764277
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.0546780072904012
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  4.0826245443499394
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  3.863912515188336
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  3.7910085054678007
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Assist with game development programming and mobile gaming projects",
+                                     "share":  3.1348724179829888
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  26.439854191980562
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  9.30741190765492
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  3.7424058323207774
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.0376670716889431
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  2.0413122721749697
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.68043742405832319
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.5832320777642771
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  0.41312272174969628
+                       }
+                   ]
+}

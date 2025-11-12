@@ -1,0 +1,86 @@
+﻿{
+    "country_code":  "CZE",
+    "country":  "Czechia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  22.34420406845334
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  7.0713593800452053
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.8130448821440108
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  6.7484662576687118
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  5.1017113335485957
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.4236357765579593
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.1653212786567648
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  3.9070067807555695
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.261220536002583
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  3.0029060381013881
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  25.79916047788182
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.5205037132709078
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  3.8424281562802713
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  2.6477236034872456
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.96867936712948022
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  0.71036486922828546
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.61349693251533743
+                       }
+                   ]
+}

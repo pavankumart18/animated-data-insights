@@ -1,0 +1,70 @@
+﻿{
+    "country_code":  "GEO",
+    "country":  "Georgia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  19.400749063670411
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  8.8389513108614235
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  6.51685393258427
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.6928838951310858
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  5.2434456928838955
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  4.868913857677903
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  4.1947565543071166
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  3.970037453183521
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  3.8202247191011232
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.5205992509363293
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  23.445692883895131
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  2.696629213483146
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  1.49812734082397
+                       }
+                   ]
+}

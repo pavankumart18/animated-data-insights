@@ -1,0 +1,98 @@
+﻿{
+    "state_code":  "CO",
+    "state":  "Colorado",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.019281510046682
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.2403085041607476
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.5299370813882689
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.6220824030850416
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  5.480008118530546
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.9725999594073471
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.85082200121778
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  4.5463771057438604
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  4.2419322102699413
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  3.9780799675258778
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  18.932038834951456
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  5.6634304207119737
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  4.4296116504854366
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.8228155339805823
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  3.1755663430420711
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.2338187702265371
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  1.1933656957928802
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.8090614886731391
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.72815533980582525
+                       },
+                       {
+                           "name":  "Management",
+                           "share":  0.30339805825242716
+                       }
+                   ]
+}

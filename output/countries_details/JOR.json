@@ -1,0 +1,60 @@
+﻿{
+    "country_code":  "JOR",
+    "country":  "Jordan",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  22.620380739081742
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  13.885778275475923
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.3829787234042552
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  5.1511758118701
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  4.7032474804031352
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.25531914893617
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.1433370660694289
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  3.807390817469205
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.135498320268757
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  2.9115341545352744
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  29.675251959686449
+                   }
+}

@@ -1,0 +1,50 @@
+﻿{
+    "country_code":  "ZMB",
+    "country":  "Zambia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  13.92757660167131
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  12.256267409470752
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  10.027855153203342
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  8.07799442896936
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  7.2423398328690807
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  5.0139275766016711
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  4.7353760445682447
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  4.4568245125348191
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  9.7493036211699167
+                   }
+}

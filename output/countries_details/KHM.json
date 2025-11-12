@@ -1,0 +1,60 @@
+﻿{
+    "country_code":  "KHM",
+    "country":  "Cambodia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  19.645293315143249
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  15.552523874488402
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.0027285129604371
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  5.8663028649386089
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  5.1841746248294678
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.0477489768076405
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  3.8199181446111869
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.1377899045020468
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  3.1377899045020468
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  3.0013642564802185
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  32.878581173260571
+                   }
+}

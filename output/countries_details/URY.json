@@ -1,0 +1,66 @@
+﻿{
+    "country_code":  "URY",
+    "country":  "Uruguay",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  18.503937007874015
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  15.091863517060366
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  8.3989501312335957
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  5.7742782152230969
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.7742782152230969
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.3307086614173231
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  4.0682414698162725
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  2.7559055118110236
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  2.4934383202099739
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  2.3622047244094486
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  16.272965879265094
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.8556430446194225
+                       }
+                   ]
+}

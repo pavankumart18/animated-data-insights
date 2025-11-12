@@ -1,0 +1,78 @@
+﻿{
+    "country_code":  "SAU",
+    "country":  "Saudi Arabia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  19.577666428060127
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  9.3056549749463127
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.9434502505368645
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.62133142448103
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.8339298496778813
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.5812455261274154
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.7938439513242663
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  3.4359341445955622
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  3.4001431639226913
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  3.1496062992125982
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  30.994989262705797
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.0443808160343595
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  3.4359341445955622
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  1.4316392269148175
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  1.1095204008589834
+                       }
+                   ]
+}

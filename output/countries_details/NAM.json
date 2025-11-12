@@ -1,0 +1,29 @@
+﻿{
+    "country_code":  "NAM",
+    "country":  "Namibia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  12.849162011173185
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  11.1731843575419
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  10.614525139664805
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  8.3798882681564244
+                                 }
+                             ],
+    "job_groups":  {
+
+                   }
+}

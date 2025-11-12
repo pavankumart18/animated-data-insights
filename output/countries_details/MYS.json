@@ -1,0 +1,98 @@
+﻿{
+    "country_code":  "MYS",
+    "country":  "Malaysia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  19.64761319401762
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  9.1989346445400528
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.1950419995902486
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.9452980946527356
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  6.0028682646998561
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.4662978897766852
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.4048350747797578
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.872157344806392
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  2.8272894898586354
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  2.80680188485966
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  31.632862118418352
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  9.1579594345421018
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.1794714197910263
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  3.4828928498258556
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  1.0653554599467321
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.53267772997336615
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  0.47121491497643914
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.43023970497848807
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.34828928498258549
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.3073140749846342
+                       }
+                   ]
+}

@@ -1,0 +1,114 @@
+﻿{
+    "state_code":  "IL",
+    "state":  "Illinois",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.020219526285384
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  9.06990179087233
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.5823223570190637
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.979202772963605
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  5.545927209705372
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.2316580011554015
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  4.2316580011554015
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.0583477758521083
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.9716926632004621
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  3.9283651068746388
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  20.566146735990756
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  6.5857885615251295
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  6.4269208549971122
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.6504910456383595
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  2.7296360485268631
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  2.0652801848642404
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.9641825534373194
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.60658578856152512
+                       },
+                       {
+                           "name":  "Business and Financial Operations",
+                           "share":  0.59214326978625054
+                       },
+                       {
+                           "name":  "Management",
+                           "share":  0.47660311958405543
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.4477180820335066
+                       },
+                       {
+                           "name":  "Food Preparation and Serving Related",
+                           "share":  0.317735413056037
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.317735413056037
+                       },
+                       {
+                           "name":  "Legal",
+                           "share":  0.21663778162911612
+                       }
+                   ]
+}

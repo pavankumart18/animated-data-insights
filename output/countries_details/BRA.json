@@ -1,0 +1,134 @@
+﻿{
+    "country_code":  "BRA",
+    "country":  "Brazil",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  18.057043007722225
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  14.753959754241588
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide comprehensive legal assistance including immigration and document services",
+                                     "share":  9.3624936587565522
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  6.10732202243391
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.0622287356969728
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  4.4445070740093566
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  3.2692632884279349
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  3.1142551152697142
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  3.0127952201116059
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  2.6999605433741052
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  28.991336633663373
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  11.56334383438344
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  9.2934293429342958
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  8.1711296129612982
+                       },
+                       {
+                           "name":  "Legal",
+                           "share":  5.4933618361836194
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  3.24032403240324
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.0716696669666967
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  1.0547929792979298
+                       },
+                       {
+                           "name":  "Business and Financial Operations",
+                           "share":  0.83539603960396014
+                       },
+                       {
+                           "name":  "Management",
+                           "share":  0.82977047704770457
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.75101260126012592
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.5259900990099009
+                       },
+                       {
+                           "name":  "Healthcare Practitioners and Technical",
+                           "share":  0.37128712871287112
+                       },
+                       {
+                           "name":  "Installation, Maintenance, and Repair",
+                           "share":  0.18564356435643561
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.14063906390639064
+                       },
+                       {
+                           "name":  "Personal Care and Service",
+                           "share":  0.12938793879387933
+                       },
+                       {
+                           "name":  "Protective Service",
+                           "share":  0.0984473447344734
+                       },
+                       {
+                           "name":  "Healthcare Support",
+                           "share":  0.067506750675067478
+                       },
+                       {
+                           "name":  "Food Preparation and Serving Related",
+                           "share":  0.053442844284428422
+                       }
+                   ]
+}

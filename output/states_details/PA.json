@@ -1,0 +1,94 @@
+﻿{
+    "state_code":  "PA",
+    "state":  "Pennsylvania",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.735461801596353
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.1337894336754086
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.8867350817179789
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.6822500950209047
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  5.6632459141011022
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.3401748384644616
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.9410870391486128
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help with job applications, resumes, and career advancement",
+                                     "share":  3.7818320030406687
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.6868110984416571
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  3.6678069175218551
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  19.556566230812962
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  5.9314004169035437
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  5.5523971953761606
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.6194807655865082
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  2.9562251279135867
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  2.0655675573242371
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  1.0801591813530416
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.72010612090202764
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.51165434906196716
+                       }
+                   ]
+}

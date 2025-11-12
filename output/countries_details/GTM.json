@@ -1,0 +1,66 @@
+﻿{
+    "country_code":  "GTM",
+    "country":  "Guatemala",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  16.577060931899641
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.591397849462366
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  7.2580645161290329
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  5.1971326164874547
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  5.1971326164874547
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.4802867383512543
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.8530465949820791
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  3.1362007168458779
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive legal assistance including immigration and document services",
+                                     "share":  3.1362007168458779
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  3.0465949820788532
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  17.652329749103941
+                       },
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  13.082437275985665
+                       }
+                   ]
+}

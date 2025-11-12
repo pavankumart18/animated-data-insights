@@ -1,0 +1,35 @@
+﻿{
+    "country_code":  "BFA",
+    "country":  "Burkina Faso",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.75091575091575
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  12.454212454212454
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.4249084249084252
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.4249084249084252
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  7.3260073260073266
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  13.553113553113555
+                   }
+}

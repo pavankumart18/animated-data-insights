@@ -1,0 +1,66 @@
+﻿{
+    "country_code":  "CYP",
+    "country":  "Cyprus",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  19.591141396933558
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  9.0289608177172056
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  8.17717206132879
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  5.7921635434412266
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  5.2810902896081773
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  5.1107325383304936
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.7700170357751279
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  4.0885860306643949
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  3.2367972742759794
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  3.0664395229982966
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  14.991482112436117
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.2367972742759794
+                       }
+                   ]
+}

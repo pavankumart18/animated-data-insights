@@ -1,0 +1,66 @@
+﻿{
+    "country_code":  "SVK",
+    "country":  "Slovakia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  22.259136212624583
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  8.7486157253599117
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  7.7519379844961236
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  5.9800664451827243
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  4.9833887043189371
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  4.7619047619047619
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.3189368770764114
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  3.322259136212625
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.211517165005537
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  3.10077519379845
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  22.591362126245848
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  2.6578073089701
+                       }
+                   ]
+}

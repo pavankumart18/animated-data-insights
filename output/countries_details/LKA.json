@@ -1,0 +1,86 @@
+﻿{
+    "country_code":  "LKA",
+    "country":  "Sri Lanka",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  20.658761528326743
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  15.942028985507244
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.3781291172595518
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.0079051383399209
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.4808959156785244
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.4795783926218711
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  4.057971014492753
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  3.8471673254281948
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help with automation scripts, robotics programming, and workflow optimization tasks",
+                                     "share":  2.9512516469038208
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  2.8985507246376812
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  37.865612648221344
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  10.118577075098814
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.5046113306982871
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  2.1343873517786562
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  0.65876152832674573
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.5270092226613966
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  0.447957839262187
+                       }
+                   ]
+}

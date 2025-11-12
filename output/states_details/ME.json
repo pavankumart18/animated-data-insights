@@ -1,0 +1,59 @@
+﻿{
+    "state_code":  "ME",
+    "state":  "Maine",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.081967213114757
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.6885245901639347
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.0655737704918034
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.4098360655737707
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.918032786885246
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  4.5901639344262293
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  4.4262295081967213
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.2622950819672125
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  3.7704918032786887
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help plan and organize events, schedules, and travel arrangements",
+                                     "share":  3.7704918032786887
+                                 }
+                             ],
+    "job_groups":  {
+
+                   }
+}

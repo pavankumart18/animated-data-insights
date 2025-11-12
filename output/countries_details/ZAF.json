@@ -1,0 +1,90 @@
+﻿{
+    "country_code":  "ZAF",
+    "country":  "South Africa",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  17.255434782608695
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  9.3555900621118
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.90916149068323
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  7.8610248447204976
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  6.7740683229813667
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.1149068322981366
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.0954968944099379
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  3.3967391304347823
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.1444099378881987
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide business operations support and strategic consulting services",
+                                     "share":  2.9114906832298137
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  25.834627329192543
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  11.665372670807452
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  4.3478260869565215
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.6878881987577632
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  1.4751552795031055
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  0.970496894409938
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.36878881987577639
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.34937888198757761
+                       }
+                   ]
+}

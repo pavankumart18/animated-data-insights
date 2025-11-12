@@ -17,6 +17,27 @@ const ISO = {
 const COUNTRY_DATA = new Map();
 const countryName = code => ISO[code] || code;
 
+// URL sync helpers for country selection
+function getURLCountryCode() {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('country');
+    return code ? code.toUpperCase() : null;
+  } catch (_) {
+    return null;
+  }
+}
+
+function setURLCountryCode(code) {
+  try {
+    const url = new URL(window.location.href);
+    url.searchParams.set('country', code);
+    history.replaceState(null, '', url.toString());
+  } catch (_) {
+    // ignore if URL APIs are not available
+  }
+}
+
 const container = document.getElementById('treemap-wrap');
 const svg = d3.select('#treemap-svg');
 const g = svg.append('g').attr('class','tiles');
@@ -70,7 +91,7 @@ function renderList(listData) {
 function renderTreemap(rootData) {
   const newLeaves = computeLeaves(rootData);
   const newLayout = new Map();
-  newLeaves.forEach(d => newLayout.set(d.key, {
+  newLeaves.forEach(d => newLayout.set(d.id, {
     x: d.x0,
     y: d.y0,
     w: d.x1 - d.x0,
@@ -80,7 +101,7 @@ function renderTreemap(rootData) {
     pct: d.pct
   }));
 
-  const groups = g.selectAll('.tile-group').data(newLeaves, d => d.key);
+  const groups = g.selectAll('.tile-group').data(newLeaves, d => d.id);
   const exiting = groups.exit();
   exiting.select('rect').transition().duration(220).attr('width',0).attr('height',0).style('opacity',0.01);
   exiting.transition().delay(220).remove();
@@ -92,8 +113,8 @@ function renderTreemap(rootData) {
     .attr('ry',6)
     .style('opacity',0.95)
     .each(function(d) {
-      const r = newLayout.get(d.key);
-      const r0 = prevLayout.get(d.key);
+      const r = newLayout.get(d.id);
+      const r0 = prevLayout.get(d.id);
       const rect = d3.select(this);
       if (r0) {
         rect.attr('x', r0.x).attr('y', r0.y).attr('width', r0.w).attr('height', r0.h);
@@ -103,6 +124,8 @@ function renderTreemap(rootData) {
         rect.attr('x', cx).attr('y', cy).attr('width', 0).attr('height', 0);
       }
       rect.style('fill', color(r.cat));
+      // Tooltip for tiny tiles
+      rect.append('title').text(r.name);
     });
   enter.append('text').attr('class','tile-label name').style('font-size','11px').style('opacity',0);
   enter.append('text').attr('class','tile-label pct').style('font-size','10px').style('opacity',0);
@@ -110,7 +133,7 @@ function renderTreemap(rootData) {
   const merged = enter.merge(groups);
   merged.each(function(d) {
     const node = d3.select(this);
-    const r = newLayout.get(d.key);
+    const r = newLayout.get(d.id);
     const tx = Math.max(r.x + 8, r.x + 4);
     const nameY = Math.min(r.y + 18, r.y + Math.max(16, r.h - 16));
     const pctY = Math.min(nameY + 16, r.y + r.h - 6);
@@ -118,11 +141,15 @@ function renderTreemap(rootData) {
 
     const showBoth = r.w > 140 && r.h > 70;
     const showPctOnly = !showBoth && r.w > 80 && r.h > 40;
-    const showPctTiny = !showBoth && !showPctOnly && r.w > 54 && r.h > 32;
+    const showNameTiny = !showBoth && !showPctOnly && r.w > 36 && r.h > 20;
 
-    node.select('rect').transition().duration(620).ease(d3.easeCubicInOut)
+    const rectSel = node.select('rect');
+    rectSel.transition().duration(620).ease(d3.easeCubicInOut)
       .attr('x', r.x).attr('y', r.y).attr('width', r.w).attr('height', r.h)
       .style('fill', color(r.cat));
+    // Keep tooltip text updated
+    const rectTitle = rectSel.select('title');
+    if (rectTitle.empty()) rectSel.append('title').text(r.name); else rectTitle.text(r.name);
 
     const nameLabel = node.select('text.tile-label.name');
     const pctLabel = node.select('text.tile-label.pct');
@@ -139,11 +166,12 @@ function renderTreemap(rootData) {
       pctLabel.text(pctText)
         .transition().duration(620).ease(d3.easeCubicInOut)
         .attr('x', tx).attr('y', nameY).style('opacity', 0.95).style('text-anchor','start');
-    } else if (showPctTiny) {
-      nameLabel.transition().duration(400).style('opacity', 0);
-      pctLabel.text(pctText)
+    } else if (showNameTiny) {
+      const short = r.name.length > 18 ? `${r.name.slice(0,15)}...` : r.name;
+      pctLabel.transition().duration(300).style('opacity', 0);
+      nameLabel.text(short)
         .transition().duration(620).ease(d3.easeCubicInOut)
-        .attr('x', r.x + r.w / 2).attr('y', r.y + r.h / 2).style('opacity', 0.9).style('text-anchor','middle');
+        .attr('x', tx).attr('y', nameY).style('opacity', 0.9).style('text-anchor','start').style('font-size','10px');
     } else {
       nameLabel.transition().duration(300).style('opacity', 0);
       pctLabel.transition().duration(300).style('opacity', 0);
@@ -173,7 +201,9 @@ document.getElementById('facet-toggle').addEventListener('change', () => {
   if (code) updateDashboard(code);
 });
 document.getElementById('country-select').addEventListener('change', (e) => {
-  updateDashboard(e.target.value);
+  const code = e.target.value;
+  setURLCountryCode(code);
+  updateDashboard(code);
 });
 
 let rt = null;
@@ -188,6 +218,19 @@ window.addEventListener('resize', () => {
     }
   }, 120);
 });
+
+// Re-render when the treemap container itself resizes (e.g., layout changes)
+if (typeof ResizeObserver !== 'undefined') {
+  const ro = new ResizeObserver(() => {
+    const code = document.getElementById('country-select').value;
+    if (code) {
+      const d = COUNTRY_DATA.get(code);
+      const facet = document.getElementById('facet-toggle').checked ? 'onet_task' : 'collaboration';
+      renderTreemap(d.treeByFacet[facet]);
+    }
+  });
+  ro.observe(container);
+}
 
 d3.csv('data.csv', d3.autoType).then(rows => {
   const byCode = d3.group(rows, d => d.geo_id);
@@ -233,10 +276,17 @@ d3.csv('data.csv', d3.autoType).then(rows => {
   });
 
   let initialCode = codes[0];
-  const scored = codes.map(code => ({ code, count: (COUNTRY_DATA.get(code)?.usage?.count)||0 }));
-  scored.sort((a,b) => b.count - a.count);
-  if (scored.length && scored[0].count > 0) initialCode = scored[0].code;
+  const urlCode = getURLCountryCode();
+  if (urlCode && codes.includes(urlCode)) {
+    initialCode = urlCode;
+  } else {
+    const scored = codes.map(code => ({ code, count: (COUNTRY_DATA.get(code)?.usage?.count)||0 }));
+    scored.sort((a,b) => b.count - a.count);
+    if (scored.length && scored[0].count > 0) initialCode = scored[0].code;
+  }
   select.value = initialCode;
+  // Only set URL if no country param present
+  if (!urlCode) setURLCountryCode(initialCode);
   updateDashboard(initialCode);
 }).catch(err => { console.error('Failed to load CSV', err); });
 
@@ -300,7 +350,11 @@ d3.csv('data.csv', d3.autoType).then(rows => {
     opt.textContent = countryName(code);
     select.appendChild(opt);
   });
-  const initial = codes.includes('AE') ? 'AE' : codes[0];
+  let initial = codes.includes('AE') ? 'AE' : codes[0];
+  const urlCode = getURLCountryCode();
+  if (urlCode && codes.includes(urlCode)) initial = urlCode;
   select.value = initial;
+  // Only set URL if no country param present
+  if (!urlCode) setURLCountryCode(initial);
   updateDashboard(initial);
 })();

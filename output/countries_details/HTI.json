@@ -1,0 +1,19 @@
+﻿{
+    "country_code":  "HTI",
+    "country":  "Haiti",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  14.074074074074074
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  14.074074074074074
+                                 }
+                             ],
+    "job_groups":  {
+
+                   }
+}

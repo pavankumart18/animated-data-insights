@@ -1,0 +1,66 @@
+﻿{
+    "country_code":  "MDG",
+    "country":  "Madagascar",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  20.754716981132077
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  17.495711835334475
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  5.4888507718696395
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  5.3173241852487134
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  4.9742710120068612
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.4596912521440828
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.2881646655231558
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  3.2590051457975986
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.2590051457975986
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  3.0874785591766725
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  29.331046312178387
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  2.74442538593482
+                       }
+                   ]
+}

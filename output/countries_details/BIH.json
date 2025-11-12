@@ -1,0 +1,45 @@
+﻿{
+    "country_code":  "BIH",
+    "country":  "Bosnia and Herzegovina",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  23.333333333333332
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  11.111111111111111
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  8.0555555555555554
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  6.3888888888888884
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  5.2777777777777777
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  4.7222222222222223
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  4.4444444444444446
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  11.111111111111111
+                   }
+}

@@ -1,0 +1,74 @@
+﻿{
+    "country_code":  "FIN",
+    "country":  "Finland",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  18.793911007025759
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.7330210772833725
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  6.61592505854801
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  6.4402810304449654
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  5.913348946135832
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  5.2107728337236541
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  4.5081967213114753
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.0983606557377046
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  3.9812646370023423
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  2.9859484777517564
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  18.735362997658076
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  2.9274004683840742
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  2.8688524590163933
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  0.99531615925058536
+                       }
+                   ]
+}

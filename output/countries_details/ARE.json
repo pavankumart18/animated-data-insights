@@ -1,0 +1,86 @@
+﻿{
+    "country_code":  "ARE",
+    "country":  "United Arab Emirates",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  19.694453669877117
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  7.8711391564264366
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  7.3729657920956493
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.5094652939222852
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  6.0112919295914979
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.2806376619063435
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  4.085021587512454
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.9189637994021922
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  3.1218864164729325
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help with job applications, resumes, and career advancement",
+                                     "share":  2.9890401859847224
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  28.595151112587182
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  4.3507140484888742
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  3.7196944536698773
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.2547326469611426
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  1.129192959149784
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  0.8967120557954168
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.5313849219528396
+                       }
+                   ]
+}

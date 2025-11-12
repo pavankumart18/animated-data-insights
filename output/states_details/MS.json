@@ -1,0 +1,49 @@
+﻿{
+    "state_code":  "MS",
+    "state":  "Mississippi",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  11.609498680738788
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  11.08179419525066
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  11.08179419525066
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.8047493403693933
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  5.2770448548812663
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.7493403693931393
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  4.2216358839050132
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  3.95778364116095
+                                 }
+                             ],
+    "job_groups":  {
+
+                   }
+}

@@ -1,0 +1,70 @@
+﻿{
+    "country_code":  "DOM",
+    "country":  "Dominican Republic",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  17.329796640141467
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  9.0185676392572915
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.6923076923076925
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  6.18921308576481
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.10079575596817
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.5977011494252871
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.3324491600353667
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  3.8903625110521665
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  3.4482758620689653
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  3.2714412024756858
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  20.335985853227228
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  6.2776304155614469
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  2.7409372236958434
+                       }
+                   ]
+}

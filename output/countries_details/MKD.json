@@ -1,0 +1,30 @@
+﻿{
+    "country_code":  "MKD",
+    "country":  "North Macedonia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  26.969696969696972
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  13.636363636363637
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  7.2727272727272716
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  4.5454545454545459
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  17.878787878787875
+                   }
+}

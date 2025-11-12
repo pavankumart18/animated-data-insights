@@ -1,0 +1,78 @@
+﻿{
+    "country_code":  "AUT",
+    "country":  "Austria",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  20.692307692307693
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.3461538461538467
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  6.5769230769230775
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.8461538461538458
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.2692307692307692
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  5.0769230769230766
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.1923076923076925
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  3.5384615384615383
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.3076923076923079
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.1538461538461537
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  23.538461538461537
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.384615384615385
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  3.3076923076923075
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  3.1923076923076921
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  0.69230769230769229
+                       }
+                   ]
+}

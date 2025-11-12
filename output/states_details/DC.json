@@ -1,0 +1,82 @@
+﻿{
+    "state_code":  "DC",
+    "state":  "District of Columbia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  12.589729431253453
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  11.816675869685255
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.3992269464384322
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  7.1231363887355057
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help with job applications, resumes, and career advancement",
+                                     "share":  5.41137493097736
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  4.417448923246825
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.251794588625069
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.0309221424627273
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  3.8100496963003869
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.6996134732192161
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  7.0127001656543344
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  5.0248481501932636
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  2.2087244616234125
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  1.7669795692987302
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  1.1043622308117065
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.82827167310877969
+                       }
+                   ]
+}

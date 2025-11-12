@@ -1,0 +1,60 @@
+﻿{
+    "state_code":  "VT",
+    "state":  "Vermont",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  10.930232558139537
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  10.232558139534884
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  8.6046511627906987
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  6.5116279069767442
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  6.279069767441861
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  5.5813953488372094
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  5.1162790697674421
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  5.1162790697674421
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.6511627906976747
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help plan and organize events, schedules, and travel arrangements",
+                                     "share":  3.9534883720930232
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  3.4883720930232549
+                   }
+}

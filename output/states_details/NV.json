@@ -1,0 +1,78 @@
+﻿{
+    "state_code":  "NV",
+    "state":  "Nevada",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  20.42124542124542
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.15018315018315
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  7.280219780219781
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.5018315018315027
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.2655677655677655
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  5.1282051282051277
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.9908424908424909
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.6172161172161177
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.47985347985348
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  3.0677655677655675
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  20.421245421245423
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.7087912087912094
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  1.6483516483516485
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  1.3736263736263739
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  0.8699633699633702
+                       }
+                   ]
+}

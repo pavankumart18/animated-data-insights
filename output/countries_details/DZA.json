@@ -1,0 +1,74 @@
+﻿{
+    "country_code":  "DZA",
+    "country":  "Algeria",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  20.173646578140961
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  14.04494382022472
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.7415730337078648
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.26046986721144
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.1072522982635347
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  3.9836567926455571
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  3.7282941777323808
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  3.3707865168539324
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.2175689479060265
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.2175689479060265
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  34.473953013278859
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  4.1879468845760979
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.0132788559754848
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  1.0214504596527068
+                       }
+                   ]
+}

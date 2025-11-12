@@ -1,0 +1,138 @@
+﻿{
+    "country_code":  "JPN",
+    "country":  "Japan",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.516459856082498
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.6973766219049224
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.3148620318431643
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.6093829678735334
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  4.8331350218142672
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.59799422063573
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  4.44784407048558
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.1730409654937954
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  3.9690634030256673
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.7735849056603774
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  27.103543852702437
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  14.452583646802616
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  9.20326950815963
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  7.3167972395848073
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  6.363662075402325
+                       },
+                       {
+                           "name":  "Management",
+                           "share":  1.9204117996436347
+                       },
+                       {
+                           "name":  "Business and Financial Operations",
+                           "share":  1.7507141442995726
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  1.7026331419520886
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.4735413072376051
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  1.0097010492971685
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.8513165709760443
+                       },
+                       {
+                           "name":  "Healthcare Practitioners and Technical",
+                           "share":  0.766467743304013
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.43272902112735823
+                       },
+                       {
+                           "name":  "Legal",
+                           "share":  0.41293096133721752
+                       },
+                       {
+                           "name":  "Personal Care and Service",
+                           "share":  0.30828407387504597
+                       },
+                       {
+                           "name":  "Installation, Maintenance, and Repair",
+                           "share":  0.27151624855049916
+                       },
+                       {
+                           "name":  "Food Preparation and Serving Related",
+                           "share":  0.17252594959979631
+                       },
+                       {
+                           "name":  "Protective Service",
+                           "share":  0.0905054161834997
+                       },
+                       {
+                           "name":  "Healthcare Support",
+                           "share":  0.09050541618349961
+                       },
+                       {
+                           "name":  "Building and Grounds Cleaning and Maintenance",
+                           "share":  0.056565885114687263
+                       }
+                   ]
+}

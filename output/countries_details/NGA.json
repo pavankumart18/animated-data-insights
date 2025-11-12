@@ -1,0 +1,90 @@
+﻿{
+    "country_code":  "NGA",
+    "country":  "Nigeria",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  17.14077315827863
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  13.552151714077317
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  7.62946754194019
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.61487964989059
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  7.36688548504741
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  5.1641137855579871
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  3.3698030634573306
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  3.1655725747629462
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  2.9613420860685631
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  2.8008752735229758
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  34.427425237053249
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  9.9489423778264037
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  8.37345003646973
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  2.62582056892779
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  2.202771699489424
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.648431801604668
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.93362509117432524
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.59810357403355208
+                       }
+                   ]
+}

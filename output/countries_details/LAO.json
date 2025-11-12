@@ -1,0 +1,50 @@
+﻿{
+    "country_code":  "LAO",
+    "country":  "Laos",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  16.010498687664043
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  12.073490813648291
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  10.761154855643044
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.8241469816272966
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.2493438320209975
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.9868766404199478
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Create comprehensive K-12 educational materials and teaching resources",
+                                     "share":  4.1994750656167978
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  4.1994750656167978
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  13.648293963254593
+                   }
+}

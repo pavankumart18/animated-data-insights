@@ -26,6 +26,8 @@
     .metric{background:#f7f5f0;border-radius:8px;padding:8px 10px;font-size:12px;color:#444}
     .search{display:flex;gap:8px;align-items:center}
     .search input{padding:8px 10px;border:1px solid #ddd;border-radius:6px;width:220px}
+    .nav-btn{background:#f7f5f0;border:1px solid #e3dfd6;border-radius:8px;padding:8px 12px;font-size:12px;color:#444;cursor:pointer}
+    .nav-btn:hover{background:#efece6}
   </style>
 </head>
 <body>
@@ -53,13 +55,31 @@
     <div class="panel right">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
         <h3 style="margin:0">How people are using Claude</h3>
-        <label style="font-size:14px"><input type="checkbox" id="facet-toggle"> Show ONET tasks</label>
+        <div style="display:flex;gap:10px;align-items:center">
+          <label style="font-size:14px"><input type="checkbox" id="facet-toggle"> Show ONET tasks</label>
+          <button id="nav-states" class="nav-btn" aria-label="Go to states">States</button>
+        </div>
       </div>
       <div id="treemap-wrap"><svg id="treemap-svg" aria-label="Treemap visualization"></svg></div>
     </div>
   </div>
 
   <div class="debug" id="debug" style="display:none"></div>
-  <script src="app2.js"></script>
+  <script src="countries.js"></script>
+  <script>
+    // Navigation to states page; preserve query string (so ?code works both pages)
+    document.getElementById('nav-states')?.addEventListener('click', () => {
+      const qs = window.location.search || '';
+      window.location.href = 'index.html' + qs;
+    });
+
+    // Keyboard shortcuts: Shift+C -> Countries (noop here), Shift+S -> States
+    window.addEventListener('keydown', (e) => {
+      if (e.shiftKey && (e.key === 'S' || e.key === 's')) {
+        const qs = window.location.search || '';
+        window.location.href = 'index.html' + qs;
+      }
+    });
+  </script>
 </body>
 </html>

@@ -1,0 +1,118 @@
+﻿{
+    "country_code":  "NLD",
+    "country":  "The Netherlands",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  17.3374613003096
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.6305469556243555
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.1661506707946341
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  5.6888544891640862
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.4695562435500511
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.992260061919505
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.7342621259029931
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.0505675954592357
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  4.01186790505676
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.5345717234262128
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  26.640082325701052
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  6.1487007975302284
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  5.98147671726267
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  4.669410856701826
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  3.1772575250836113
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  1.3763828145099046
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  0.95189091844610241
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.84898379212760466
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.784666838178544
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.74607666580910725
+                       },
+                       {
+                           "name":  "Management",
+                           "share":  0.48880885001286334
+                       },
+                       {
+                           "name":  "Healthcare Practitioners and Technical",
+                           "share":  0.37303833290455363
+                       },
+                       {
+                           "name":  "Installation, Maintenance, and Repair",
+                           "share":  0.25726781579624391
+                       },
+                       {
+                           "name":  "Business and Financial Operations",
+                           "share":  0.24440442500643164
+                       },
+                       {
+                           "name":  "Personal Care and Service",
+                           "share":  0.19295086184718291
+                       }
+                   ]
+}

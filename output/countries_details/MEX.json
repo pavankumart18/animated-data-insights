@@ -1,0 +1,110 @@
+﻿{
+    "country_code":  "MEX",
+    "country":  "Mexico",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  17.531617967727868
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  8.1552551242913225
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.6833842128216316
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.6694286960313995
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  5.4077627562145656
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  4.6009594417793291
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.5791539467945928
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.848669864805931
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  3.8377671173135632
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.5215874400348888
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  29.720889664195376
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  12.01482773658962
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  5.0806803314435243
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.906236371565635
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  2.2132577409507195
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  1.0357610117749672
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.88312254688181424
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  0.719581334496293
+                       },
+                       {
+                           "name":  "Management",
+                           "share":  0.42520715220235489
+                       },
+                       {
+                           "name":  "Healthcare Practitioners and Technical",
+                           "share":  0.38159616223288262
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.27256868730920192
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.20715220235499338
+                       },
+                       {
+                           "name":  "Installation, Maintenance, and Repair",
+                           "share":  0.16354121238552111
+                       }
+                   ]
+}

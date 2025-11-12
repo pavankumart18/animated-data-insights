@@ -1,0 +1,86 @@
+﻿{
+    "country_code":  "DNK",
+    "country":  "Denmark",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  19.149868536371603
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.3181419807186678
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  7.1866783523225246
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.7405784399649429
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  5.6967572304995624
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  5.4338299737072742
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.5574057843996494
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.3382997370727434
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  4.2506573181419807
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  3.5056967572304996
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  22.085889570552148
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.4259421560035062
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  3.4618755477651182
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  1.6213847502191059
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.83260297984224363
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  0.78878177037686237
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  0.74496056091148111
+                       }
+                   ]
+}

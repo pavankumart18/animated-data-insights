@@ -1,0 +1,78 @@
+﻿{
+    "state_code":  "CT",
+    "state":  "Connecticut",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  12.767039674465922
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.9348931841302139
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  7.1719226856561544
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  6.1037639877924725
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.8494404883011191
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  5.5951169888097656
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  5.3916581892166837
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.7304170905391656
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  4.22177009155646
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide business operations support and strategic consulting services",
+                                     "share":  3.6622583926754833
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  10.020345879959306
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  4.2217700915564587
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  2.695829094608341
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  2.0854526958290944
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  0.762970498474059
+                       }
+                   ]
+}

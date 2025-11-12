@@ -1,0 +1,24 @@
+﻿{
+    "country_code":  "XKX",
+    "country":  "Kosovo",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  23.728813559322035
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  15.254237288135592
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  14.40677966101695
+                                 }
+                             ],
+    "job_groups":  {
+
+                   }
+}

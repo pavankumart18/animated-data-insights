@@ -1,0 +1,86 @@
+﻿{
+    "state_code":  "AZ",
+    "state":  "Arizona",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  14.455942301661963
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.7174662903731583
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  7.9648792724992159
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.5816870492317348
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  5.4248980871746628
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  4.8604578237692069
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.5782376920664785
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.5468798996550648
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  4.4214487300094074
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  3.7629350893697082
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  17.215428033866417
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  5.7071182188773912
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  4.7036688617121349
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  2.8849169018501097
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.9441831295076828
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  1.0975227343994982
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.533082470994042
+                       }
+                   ]
+}

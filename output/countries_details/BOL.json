@@ -1,0 +1,70 @@
+﻿{
+    "country_code":  "BOL",
+    "country":  "Bolivia",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.909090909090908
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  9.9802371541502
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  9.8814229249011856
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  6.7193675889328066
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  5.4347826086956523
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  4.150197628458498
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive legal assistance including immigration and document services",
+                                     "share":  3.7549407114624502
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.6561264822134385
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  3.458498023715415
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Create comprehensive K-12 educational materials and teaching resources",
+                                     "share":  3.1620553359683794
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  19.367588932806321
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  8.695652173913043
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  1.9762845849802373
+                       }
+                   ]
+}

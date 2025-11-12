@@ -1,0 +1,66 @@
+﻿{
+    "country_code":  "SEN",
+    "country":  "Senegal",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  18.719806763285025
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  16.425120772946862
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.6425120772946862
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.0386473429951693
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.0724637681159424
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  4.5893719806763285
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  3.1400966183574881
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide comprehensive legal assistance including immigration and document services",
+                                     "share":  3.0193236714975846
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide business operations support and strategic consulting services",
+                                     "share":  3.0193236714975846
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  3.0193236714975846
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  25.845410628019323
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  2.1739130434782608
+                       }
+                   ]
+}

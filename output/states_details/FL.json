@@ -1,0 +1,126 @@
+﻿{
+    "state_code":  "FL",
+    "state":  "Florida",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.125090833592855
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.3151666147617576
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.6126855600539809
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  5.9586836914772139
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  5.33582476902315
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.0347762898370192
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.9205854873871067
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.3392504930966469
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  3.8098204090106926
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  3.6748676424789788
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  24.562493528010769
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  7.3832453142797956
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  7.1140105622864231
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  5.1465258361810076
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  3.0444237340789058
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  1.8846432639536084
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.6568292430361393
+                       },
+                       {
+                           "name":  "Business and Financial Operations",
+                           "share":  0.89054571813192485
+                       },
+                       {
+                           "name":  "Management",
+                           "share":  0.89054571813192485
+                       },
+                       {
+                           "name":  "Healthcare Practitioners and Technical",
+                           "share":  0.66273169721445568
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.65237651444547984
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.64202133167650388
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.56953505229367285
+                       },
+                       {
+                           "name":  "Legal",
+                           "share":  0.22781402091746916
+                       },
+                       {
+                           "name":  "Personal Care and Service",
+                           "share":  0.18639328984156564
+                       },
+                       {
+                           "name":  "Food Preparation and Serving Related",
+                           "share":  0.18639328984156564
+                       },
+                       {
+                           "name":  "Installation, Maintenance, and Repair",
+                           "share":  0.16568292430361395
+                       }
+                   ]
+}

@@ -1,0 +1,19 @@
+﻿{
+    "state_code":  "AK",
+    "state":  "Alaska",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  12.23021582733813
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  10.791366906474821
+                                 }
+                             ],
+    "job_groups":  {
+
+                   }
+}

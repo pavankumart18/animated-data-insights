@@ -1,0 +1,55 @@
+﻿{
+    "country_code":  "KWT",
+    "country":  "Kuwait",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  23.546511627906977
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.9767441860465116
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  6.9767441860465116
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  6.104651162790697
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help with automation scripts, robotics programming, and workflow optimization tasks",
+                                     "share":  4.941860465116279
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  4.6511627906976747
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  4.3604651162790695
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.3604651162790695
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help develop and debug cross-platform mobile applications with Flutter",
+                                     "share":  4.3604651162790695
+                                 }
+                             ],
+    "job_groups":  {
+                       "name":  "Computer and Mathematical",
+                       "share":  14.244186046511626
+                   }
+}

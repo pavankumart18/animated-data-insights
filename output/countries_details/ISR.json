@@ -1,0 +1,126 @@
+﻿{
+    "country_code":  "ISR",
+    "country":  "Israel",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.748103464034363
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.0431404807604423
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  6.6355908966273649
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  5.5113792157938031
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  5.145781921213783
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  5.072662462297779
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.7527648295402614
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.6522255735307558
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  4.35974773786674
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help plan and organize events, schedules, and travel arrangements",
+                                     "share":  3.6102732839776981
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  23.454313332117458
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  11.56301294911545
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  6.1097939084442832
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  5.6173627576144458
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  3.3193507204085355
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  1.6687944555900058
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.3678643078606605
+                       },
+                       {
+                           "name":  "Healthcare Practitioners and Technical",
+                           "share":  1.0760532555170528
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.92102863395951118
+                       },
+                       {
+                           "name":  "Management",
+                           "share":  0.53802662775852639
+                       },
+                       {
+                           "name":  "Legal",
+                           "share":  0.52890753237278876
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.4833120554441
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.41035929235819807
+                       },
+                       {
+                           "name":  "Business and Financial Operations",
+                           "share":  0.20062009848623016
+                       },
+                       {
+                           "name":  "Personal Care and Service",
+                           "share":  0.1915010031004924
+                       },
+                       {
+                           "name":  "Protective Service",
+                           "share":  0.15502462155754146
+                       },
+                       {
+                           "name":  "Installation, Maintenance, and Repair",
+                           "share":  0.14590552617180375
+                       }
+                   ]
+}

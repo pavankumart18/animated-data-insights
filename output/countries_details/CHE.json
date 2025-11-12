@@ -1,0 +1,94 @@
+﻿{
+    "country_code":  "CHE",
+    "country":  "Switzerland",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  18.487589886337279
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  7.4924611459058221
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  6.9589422407794022
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.7063326374391092
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  5.3119925771282768
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.242403154720483
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  5.1032243099048946
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide multilingual translation services and language learning assistance",
+                                     "share":  4.0825794479239157
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  3.2243099048944561
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  3.1779169566225929
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  23.382045929018787
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  6.4022268615170494
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  5.4511714219438652
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  3.6186499652052886
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.1366272326606355
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.97425191370911635
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  0.90466249130132215
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.55671537926235215
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.48712595685455817
+                       }
+                   ]
+}

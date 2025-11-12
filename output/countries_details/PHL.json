@@ -1,0 +1,106 @@
+﻿{
+    "country_code":  "PHL",
+    "country":  "Philippines",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  15.735537190082644
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  10.743801652892564
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  8.78236914600551
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.7685950413223139
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.9393939393939394
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  5.0688705234159785
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  3.7355371900826446
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Create comprehensive K-12 educational materials and teaching resources",
+                                     "share":  3.493112947658402
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.0964187327823693
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Help create visual content, graphics, and multimedia for digital platforms",
+                                     "share":  3.0633608815426996
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  31.038275406951165
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  15.420149582050152
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  7.4791025076990758
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.5085789705235371
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  1.4078310602727668
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  0.98988121425428943
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.91289045314562245
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.56093268807743069
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.41794984601847768
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.26396832380114388
+                       },
+                       {
+                           "name":  "Personal Care and Service",
+                           "share":  0.18697756269247687
+                       },
+                       {
+                           "name":  "Management",
+                           "share":  0.17597888253409591
+                       }
+                   ]
+}

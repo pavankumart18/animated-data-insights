@@ -1,0 +1,82 @@
+﻿{
+    "country_code":  "IRL",
+    "country":  "Ireland",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  17.043813192103997
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  7.2701011073663935
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  6.0664419836302361
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.3442465093885412
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.1516610495907562
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.5739046701973995
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  4.3331728454501688
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  4.2368801155512763
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Help with job applications, resumes, and career advancement",
+                                     "share":  3.755416466056813
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  3.6109773712084738
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  16.177178623013962
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  3.322099181511796
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  2.599903707270101
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  1.8777082330284065
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.3962445835339432
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.72219547424169472
+                       }
+                   ]
+}

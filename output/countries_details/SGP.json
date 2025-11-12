@@ -1,0 +1,98 @@
+﻿{
+    "country_code":  "SGP",
+    "country":  "Singapore",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  20.130232558139536
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  8.9116279069767455
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  7.0697674418604652
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  5.7488372093023257
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  5.6000000000000005
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  5.1348837209302323
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  4.9488372093023258
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Analyze and process data from documents, visual media, and business sources",
+                                     "share":  3.9255813953488374
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  2.8651162790697673
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Create comprehensive digital marketing strategies and promotional content",
+                                     "share":  2.8093023255813954
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  26.902325581395349
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  8.27906976744186
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.9302325581395348
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  4.4651162790697674
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  2.8651162790697668
+                       },
+                       {
+                           "name":  "Community and Social Service",
+                           "share":  1.1534883720930231
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.68837209302325575
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.50232558139534889
+                       },
+                       {
+                           "name":  "Farming, Fishing, and Forestry",
+                           "share":  0.3162790697674418
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.2976744186046511
+                       }
+                   ]
+}

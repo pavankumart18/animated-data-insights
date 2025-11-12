@@ -1,0 +1,90 @@
+﻿{
+    "country_code":  "ROU",
+    "country":  "Romania",
+    "most_frequent_topics":  [
+                                 {
+                                     "rank":  1,
+                                     "text":  "Provide comprehensive software development assistance across multiple programming domains and technologies",
+                                     "share":  21.731289449954915
+                                 },
+                                 {
+                                     "rank":  2,
+                                     "text":  "Help develop and debug complete web applications and user interfaces",
+                                     "share":  8.9269612263300271
+                                 },
+                                 {
+                                     "rank":  3,
+                                     "text":  "Provide educational tutoring and academic assistance across multiple subjects and disciplines",
+                                     "share":  5.9513074842200187
+                                 },
+                                 {
+                                     "rank":  4,
+                                     "text":  "Provide technical IT support and troubleshooting assistance",
+                                     "share":  5.8911932672076945
+                                 },
+                                 {
+                                     "rank":  5,
+                                     "text":  "Provide comprehensive financial guidance and investment assistance across multiple domains",
+                                     "share":  4.8391944694920346
+                                 },
+                                 {
+                                     "rank":  6,
+                                     "text":  "Help edit, improve, and create professional written documents and communications",
+                                     "share":  3.937481214307184
+                                 },
+                                 {
+                                     "rank":  7,
+                                     "text":  "Provide medical and sports training guidance",
+                                     "share":  3.7871956717763751
+                                 },
+                                 {
+                                     "rank":  8,
+                                     "text":  "Provide personalized lifestyle advice and recommendations across relationships, spirituality, entertainment, beauty, and parenting",
+                                     "share":  3.3663961526901112
+                                 },
+                                 {
+                                     "rank":  9,
+                                     "text":  "Provide technical and academic assistance across scientific research and educational domains",
+                                     "share":  3.1860535016531411
+                                 },
+                                 {
+                                     "rank":  10,
+                                     "text":  "Provide comprehensive domestic life and household management guidance",
+                                     "share":  3.0357679591223325
+                                 }
+                             ],
+    "job_groups":  [
+                       {
+                           "name":  "Computer and Mathematical",
+                           "share":  31.289261142686208
+                       },
+                       {
+                           "name":  "Office and Administrative Support",
+                           "share":  4.606640741848639
+                       },
+                       {
+                           "name":  "Arts, Design, Entertainment, Sports, and Media",
+                           "share":  3.0212384086150164
+                       },
+                       {
+                           "name":  "Educational Instruction and Library",
+                           "share":  2.3930601256356563
+                       },
+                       {
+                           "name":  "Production",
+                           "share":  0.7777445408315885
+                       },
+                       {
+                           "name":  "Life, Physical, and Social Science",
+                           "share":  0.74783128926114273
+                       },
+                       {
+                           "name":  "Sales and Related",
+                           "share":  0.59826503140891407
+                       },
+                       {
+                           "name":  "Architecture and Engineering",
+                           "share":  0.4786120251271313
+                       }
+                   ]
+}
