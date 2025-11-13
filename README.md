@@ -1,25 +1,31 @@
-# Treemap Transitions with D3
+﻿# Animated Data Insights
 
-This project demonstrates a responsive treemap dashboard built with **D3.js**. It renders synthetic usage data for several U.S. regions, animating between states with smooth transitions and FLIP-inspired entry effects.
-
-## Getting Started
-
-1. Open `index.html` in any modern browser (Chrome, Edge, Safari, or Firefox).
-2. Use the region dropdown in the header to switch datasets. Tiles animate into their new positions and display both the category name and its percentage contribution.
-3. Resize the browser window to see the responsive layout adapt.
-
-No build step is required—everything runs directly in the browser using the CDN-hosted D3 v7 bundle.
+A small set of single-file dashboards demonstrating animated D3.js treemaps with FLIP (First/Last/Invert/Play) transitions. Built for quick prototyping and comparison between US states and world countries datasets.
 
 ## Files
+- index.html — US states treemap with animated transitions.
+- index2.html — World countries treemap with similar layout and animations.
+- prompts.md — Full prompt/output log for this session.
+- prompts-only.md — Extracted prompts only (one per line).
 
-- `index.html` — main HTML page containing styles, data, and D3 rendering logic.
-- `README.md` — this file.
+## Quick Start
+1. Open index.html (US states) or index2.html (countries) in a modern browser.
+2. Use the dropdown to switch datasets and observe in-place FLIP transitions.
+3. Tweak data inside the <script> block to prototype new scenarios.
 
-## Customization Tips
+## Tech Notes
+- D3.js v7 for treemap layout and joins.
+- FLIP technique to animate rectangle movement/resizing instead of fade.
+- Pure HTML/CSS/JS — no build step.
 
-- **Data**: Expand or replace the `DATA` object inside `index.html` to visualize different hierarchies. Each node expects an id, name, value, and category.
-- **Colors**: Adjust the `color` ordinal scale to introduce or remap categories.
-- **Animation**: Tweak transition durations/easing in `renderTreemap` to achieve different motion profiles.
+## Editing Data
+- Each page defines a DATA object with categories and values.
+- Update 	opics and 	ree.children entries to reflect new data.
 
-Feel free to remix the layout or drop this treemap into your own dashboards. If you extend it, consider extracting the D3 code into separate modules for easier reuse.
+## Next Steps
+- Add more datasets (states or countries).
+- Tune animation duration/easing to taste.
+- Consider extracting shared JS into a separate file if desired.
 
+## Credits
+- Built collaboratively via Codex CLI.
