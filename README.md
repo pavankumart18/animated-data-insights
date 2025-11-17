@@ -1,78 +1,111 @@
-﻿# Animated Data Insights - Treemap Dashboard
+# Animated Data Insights — Treemap Dashboard
 
-A small, single-page dashboard that visualizes how people use Claude across US states and world countries. It renders an animated treemap, fits cleanly to the viewport, and keeps your selection in the URL so Back/Forward works naturally.
+A lightweight, single‑page dashboard that visualizes how people use Claude across US states and world countries. It renders an animated treemap, fits to the viewport, and preserves selection in the URL for natural Back/Forward navigation.
 
-## Overview
-- Single HTML file with a lightweight D3 treemap and smooth transitions.
-- Two modes: States and Countries, each with its own place selector.
-- URL state (`?mode=states&code=CA`) and local history so Back/Forward navigates selections.
-- Robust data loading that prefers consolidated “_all” files and gracefully handles mixed JSON shapes.
+## Quick Start
+1) Build data files (writes to repo root)
+
+```
+# Easiest: no env prep
+uv run fetch_data.py --output-dir .
+
+# Or: Python + pip
+python -m venv .venv
+.venv\Scripts\pip install -U pip pandas huggingface_hub
+.venv\Scripts\python fetch_data.py --output-dir .
+```
+
+2) Serve locally (fetch requires HTTP)
+
+```
+python -m http.server 8000
+# or
+npx serve . -l 8000
+```
+
+3) Open `http://localhost:8000` and use the Mode + Place controls.
+
+Defaults: States → CA, Countries → USA (overridden by URL/localStorage).
 
 ## Features
-- Viewport-fit layout: treemap fills the screen; the topics list scrolls within the left panel.
-- FLIP-style animations when changing mode/place.
-- Resilient JSON parsing for arrays/objects and missing fields.
-- Fallback sample data when opened via `file://` so the UI still works.
+- Single HTML + D3 treemap with smooth transitions.
+- Two modes: States and Countries, each with its own dropdown.
+- URL state: `?mode=states&code=CA` for deep‑links and navigation.
+- Viewport‑fit layout: treemap fills the screen; topics list scrolls.
+- Resilient JSON parsing; graceful fallback to a built‑in sample when opened via `file://`.
+
+## Build Data (fetch_data.py)
+The included script fetches the Anthropic/EconomicIndex dataset and produces the compact JSON files consumed by the app.
+
+Basic usage
+
+```
+uv run fetch_data.py --output-dir .
+```
+
+Options
+- `--repo-id` (default `Anthropic/EconomicIndex`) – dataset repo on Hugging Face
+- `--release` – specific `release_YYYY_MM_DD` (default: latest)
+- `--output-dir` – where to write `countries_all.json` and `states_all.json`
+- `--min-observations` – privacy threshold (default: 50)
+- `--top-topics` – number of topics to include (default: 10)
+- `--compact` – write minified JSON
+
+Notes
+- The script downloads a snapshot, builds the two JSON files, then removes the local dataset folder.
+- Internet access to `huggingface.co` is required (configure your proxy if applicable).
+
+## Data Schema (expected)
+The app loads these two files from the site root:
+- `states_all.json`
+- `countries_all.json`
+
+Each is an array of objects. Minimal shape:
+
+```
+// states_all.json
+[
+  {
+    "state_code": "CA",
+    "state": "California",
+    "usage_index": 1.0,
+    "total_observations": 1000,
+    "most_frequent_topics": [ { "text": "...", "share": 12.7 } ],
+    "job_groups": [ { "name": "Computer and Mathematical", "value": 33.3 } ]
+  }
+]
+
+// countries_all.json
+[
+  {
+    "country_code": "USA",
+    "country": "United States",
+    "usage_index": 1.0,
+    "total_observations": 10000,
+    "most_frequent_topics": [ { "text": "...", "share": 15.0 } ],
+    "job_groups": [ { "name": "Educational Instruction and Library", "value": 12.0 } ]
+  }
+]
+```
+
+The loader tolerates minor shape differences (arrays or single objects) and normalizes missing fields where possible.
 
 ## Project Structure
-- `index.html` - App shell, styles, and D3 boot loader.
-- `script.js` - Treemap controller, data loader, rendering, and interactions.
-- `states_all.json`/`countries_all.json` - Preferred consolidated datasets (optional).
-- `states.json`/`countries.json` - Fallback consolidated datasets.
-- `prompts.md` - Paraphrased prompts and outcomes.
-- `LICENSE` - MIT.
-
-## Getting Started
-- Serve the folder (fetch requires HTTP):
-  - Python: `python -m http.server 8000`
-  - Node: `npx serve . -l 8000`
-- Open `http://localhost:8000`.
-- Use “Mode” to switch between States/Countries; pick a place in the rightmost select.
-- Defaults: States -> CA, Countries -> USA (overridden by URL/localStorage).
-
-## Data Loading
-- File preference order:
-  - States: `states_all.json` -> `states.json`
-  - Countries: `countries_all.json` -> `countries.json`
-- The loader normalizes these fields even if shapes vary by file:
-  - `most_frequent_topics`: array or single object; uses `text` + `share`/`value`.
-  - `job_groups`: array or single object; collects all groups into the color domain.
-- If both fetches fail (e.g., opened via `file://`), the app renders a small built‑in sample and shows a notice.
-
-## Regenerate Consolidated Data (latest `release_*`)
-Run from the repo root to regenerate sorted `states.json` and `countries.json` from the newest `release_*` folder:
-
-```
-$ErrorActionPreference='Stop'
-function Find-LatestReleasePath { param([string]$root)
-  $dirs = Get-ChildItem -Directory -Path $root | Where-Object { $_.Name -like 'release_*' }
-  if (-not $dirs) { throw 'No release* directories found.' }
-  ($dirs | Sort-Object { $_.Name -replace '[^0-9]','' } -Descending)[0].FullName
-}
-
-$root = (Get-Location).Path
-$latest = Find-LatestReleasePath -root $root
-$statesSrc = Join-Path $latest 'data\output\states_all.json'
-$countriesSrc = Join-Path $latest 'data\output\countries_all.json'
-if (-not (Test-Path $statesSrc)) { $statesSrc = Get-ChildItem -Recurse -Path $latest -Filter 'states*.json' | Select-Object -First 1 -ExpandProperty FullName }
-if (-not (Test-Path $countriesSrc)) { $countriesSrc = Get-ChildItem -Recurse -Path $latest -Filter 'countries*.json' | Select-Object -First 1 -ExpandProperty FullName }
-if (-not (Test-Path $statesSrc) -or -not (Test-Path $countriesSrc)) { throw 'Could not locate source JSON files.' }
-
-$states = Get-Content $statesSrc -Raw | ConvertFrom-Json
-$countries = Get-Content $countriesSrc -Raw | ConvertFrom-Json
-
-$statesSorted = $states | Sort-Object -Property @{Expression={ if($null -ne $_.usage_index){[double]$_.usage_index}else{0} } ; Descending=$true}
-$countriesSorted = $countries | Sort-Object -Property @{Expression={ if($null -ne $_.usage_index){[double]$_.usage_index}else{0} } ; Descending=$true}
-
-$statesSorted   | ConvertTo-Json -Depth 8 | Set-Content -Encoding UTF8 -Path 'states.json'
-$countriesSorted| ConvertTo-Json -Depth 8 | Set-Content -Encoding UTF8 -Path 'countries.json'
-Write-Host "Generated states.json and countries.json from $latest"
-```
+- `index.html` – App shell, styles, and D3 boot loader
+- `script.js` – Treemap controller, data loader, rendering, interactions
+- `fetch_data.py` – Builds `countries_all.json` and `states_all.json`
+- `states_all.json` / `countries_all.json` – Consolidated datasets used by the app
+- `states.json` / `countries.json` – Optional legacy datasets (not used by the app)
+- `prompts.md` – Paraphrased prompts and outcomes
+- `LICENSE` – MIT
 
 ## Troubleshooting
-- Blank dropdowns: run a local server (see Getting Started). Opening via `file://` blocks fetch.
-- D3 failed to load: corporate networks may block CDNs. The page includes a fallback loader and a friendly error; serving locally generally resolves it.
-- Wrong or missing colors/labels: ensure your JSON uses `name` for group labels and `share`/`value` for numeric values.
+- Blank dropdowns – Run a local server; opening via `file://` blocks fetch.
+- D3 failed to load – Some networks block CDNs. The page tries alternate CDNs and shows a friendly error. Serving locally usually works.
+- Odd colors/labels – Ensure `job_groups[].name` and numeric `share`/`value` fields exist.
+
+## Optional: Legacy JSONs
+If you need smaller `states.json`/`countries.json` files from a `release_*` folder, you can generate them with the PowerShell snippet previously included. The app itself does not read these files.
 
 ## License
 MIT. See `LICENSE`.
